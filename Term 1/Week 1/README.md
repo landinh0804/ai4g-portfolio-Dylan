@@ -7,7 +7,9 @@
 **What was the assignment?**
 
 **What did I hand in?**
-_List the files, or link to them. Notebook exports, screenshots, scripts._
+1 slide file
+1 hackathon file
+1 home work week 1 file
 
 **What did I find difficult, and how did I solve it?**
 
@@ -23,31 +25,35 @@ _List the files, or link to them. Notebook exports, screenshots, scripts._
 > Your tool and your SDG for this hackathon are announced at the **start of Friday's class**.
 > Write them down here once you know them.
 
-**Project title:**
+**Project title: dutchlingo 
 
-**My pair partner:**
+**My pair partner:Akif
 
-**Tool we had to use:**
+**Tool we had to use: Bolt, google slide.
 
-**SDG we had to address:**
+**SDG we had to address: SDG 4 — Quality Education
 
 **What problem does it solve, and for whom?**
-_Name a real, specific user. "Everyone" is not a user._
+DutchLingo supports SDG 4 by making beginner Dutch vocabulary practice more accessible. It is designed for learners who can read English, have a phone or computer, internet access, and basic digital skills.
 
 **What did you build?**
-_Two or three sentences. What can a user actually do with it?_
+We built DutchLingo, a Dutch-to-English vocabulary-learning web app. Users can learn Dutch words with example sentences, practise through multiple-choice quizzes, search and filter a library of more than 100 words, and follow their learning progress through points, levels, and word status.
+
+The app has Learn Mode, Practice Mode, a Word Library, progress tracking, an About page with SDG 4 information, and a leaderboard. The vocabulary includes practical categories such as greetings, food, animals, travel, family, time, colours, and verbs.
+
 
 **Link to the live thing (if any):**
-_Deployed URL, workflow export, video demo - whatever proves it works._
+(https://bolt.new/p/70632274)
 
 **How do I run it?**
-_Short instructions so someone else can start it._
+we open the app through the link and also we have to log in to save our info then just like any other app it will be just like other lunges learning app
 
 **Who did what?**
-_Be honest about the split of work between you and your partner._
+- I came up with the idea and also refine it and then I also do the slide and help akif
+- akif did the model and also fix my mistake and help me with my Idea to Finnish the product
 
 **Ethical reflection - what are the risks of your tool? Who could it harm?**
-_Every hackathon requires this. One honest paragraph beats three vague ones._
+DutchLingo is designed for English-speaking beginner learners, so it does not fully support learners who do not read English, people without reliable internet or a suitable device, people who need stronger accessibility support, or advanced Dutch learners. This can exclude people who may benefit most from language support
 
 ### Checklist
 - [ ] Prototype code (or export / workflow file) is in `hackathon/`
@@ -72,6 +78,7 @@ _Every hackathon requires this. One honest paragraph beats three vague ones._
 ## 4. Reflection
 
 **What is the most important thing I learned this week?**
+The most important lesson was that an app needs more than a good idea: it must work for a clearly defined user group, have a simple user flow, and explain its limitations. We also learned how Bolt can speed up prototyping, while people still need to direct, review, test, and take responsibility for the result.
 
 **Where does this connect to "AI for Good"?**
-_One concrete link to ethics, sustainability or social impact._
+DutchLingo connects to AI for Good through SDG 4: Quality Education. It aims to give international students and newcomers an accessible, low-pressure way to practise useful Dutch vocabulary. Responsible use matters because the tool should support learning, not exclude people or be used to judge someone’s language ability in high-stakes situations.
