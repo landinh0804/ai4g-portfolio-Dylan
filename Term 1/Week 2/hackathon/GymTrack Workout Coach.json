@@ -1,0 +1,324 @@
+{
+  "name": "GymTrack Workout Coach",
+  "nodes": [
+    {
+      "parameters": {
+        "updates": [
+          "message"
+        ],
+        "additionalFields": {}
+      },
+      "id": "b664013d-6599-48b2-ab89-f2b8e71feac2",
+      "name": "Telegram Trigger",
+      "type": "n8n-nodes-base.telegramTrigger",
+      "typeVersion": 1.5,
+      "position": [
+        0,
+        112
+      ],
+      "webhookId": "76e06496-0370-437b-b131-646d1b642fd1",
+      "credentials": {
+        "telegramApi": {
+          "id": "ZEZ3WeL44y7DiP6J",
+          "name": "Telegram account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "1DNc553L61YTKjo9Su3q6vT5mALosPhOflG16_d0yGFU"
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "list",
+          "value": "388432564",
+          "cachedResultName": "GymTrack V2"
+        },
+        "options": {}
+      },
+      "id": "e0bb27c1-0d5a-4226-a638-25d3f7aa65f5",
+      "name": "Read History",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        224,
+        112
+      ],
+      "alwaysOutputData": true,
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "Ao4nGfX2JBCMjnUa",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Read the Telegram message from the trigger node\nconst trigger = $('Telegram Trigger').first().json;\nconst message = trigger.message || {};\nconst userMessage = message.text || '';\nconst chatId = message.chat && message.chat.id ? message.chat.id : '';\n\n// Format the last 3 rows from Google Sheets into a single context string\n// Filter out empty-json items (Read History emits one empty item when the sheet has no rows)\nconst rows = $('Read History').all()\n  .map(i => i.json)\n  .filter(r => r && Object.keys(r).length > 0);\nconst lastRows = rows.slice(-3);\n\nlet pastContext = '';\nif (lastRows.length === 0) {\n  pastContext = 'No previous history.';\n} else {\n  pastContext = lastRows.map((r, idx) => {\n    const fecha = r.Date || '';\n    const original = r.Original_Message || '';\n    const feedback = r.AI_Feedback || '';\n    const objetivo = r.Next_Goal || '';\n    return `Session ${idx + 1}:\\n- Date: ${fecha}\\n- Message: ${original}\\n- AI Feedback: ${feedback}\\n- Next goal: ${objetivo}`;\n  }).join('\\n\\n');\n}\n\nconst currentDate = new Date().toISOString().split('T')[0];\n\nreturn [\n  {\n    json: {\n      chatId,\n      currentDate,\n      userMessage,\n      pastContext,\n    },\n  },\n];"
+      },
+      "id": "3f96dac4-a285-4ce6-aeb9-b6270b980135",
+      "name": "Prepare Data",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        448,
+        112
+      ]
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Today's date: {{ $json.currentDate }}\n\nUser message (today's workout):\n{{ $json.userMessage }}\n\nRecent history:\n{{ $json.pastContext }}",
+        "options": {
+          "systemMessage": "You are an elite, science-based strength coach chatting directly with the user on Telegram. Your style is engaging, sharp, concise, and built for reading on mobile.\n\nLANGUAGE RULE: ALWAYS reply strictly in English, regardless of the language the user writes in.\n\nCONTEXT-ADAPTIVE FORMATTING - read the user's message and choose the right mode:\n\n1) If the user asks a direct question (e.g. \"when do I do the next one?\", asks for advice, rest days, or anything conversational): Answer conversationally and directly in 2-3 sentences. DO NOT force the workout-review layout. Just talk to them like a sharp coach.\n\n2) If the user logs an actual workout: Do NOT write walls of text. Use this compact layout with line breaks between each part:\n\n⚡ Breakdown: 1-2 sharp sentences analyzing load, volume, and progressive overload versus their history.\n🎯 Next Session Target: Precise numbers - exact kg, sets, and reps to hit next time, based on their performance and sleep.\n💡 Pro Tip: One punchy, lift-specific cue or recovery note. Skip generic \"hydrate and stretch\" filler.\n\nBe concise, practical, and motivating in every reply."
+        }
+      },
+      "id": "1b0bb5b2-10ae-4eec-bbd6-06789fa82f76",
+      "name": "AI Coaching Engine",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        672,
+        112
+      ]
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gpt-4o-mini",
+          "cachedResultName": "gpt-4o-mini"
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "id": "c894af98-66b0-4617-aa49-e969a7d7779d",
+      "name": "OpenAI Chat Model",
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.3,
+      "position": [
+        752,
+        336
+      ],
+      "credentials": {
+        "openAiApi": {
+          "id": null,
+          "name": "Gateway credits",
+          "__aiGatewayManaged": true
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sessionIdType": "customKey",
+        "sessionKey": "={{ $('Prepare Data').item.json.chatId }}"
+      },
+      "id": "d0b7fdb9-5c08-47a2-a920-a01bcb537adb",
+      "name": "Window Buffer Memory",
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.4,
+      "position": [
+        816,
+        528
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "1DNc553L61YTKjo9Su3q6vT5mALosPhOflG16_d0yGFU"
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "list",
+          "value": "388432564",
+          "cachedResultName": "GymTrack V2"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Date": "={{ $('Prepare Data').item.json.currentDate }}",
+            "Original_Message": "={{ $('Prepare Data').item.json.userMessage }}",
+            "AI_Feedback": "={{ $json.output }}"
+          },
+          "schema": [
+            {
+              "id": "Date",
+              "displayName": "Date",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Original_Message",
+              "displayName": "Original_Message",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "AI_Feedback",
+              "displayName": "AI_Feedback",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Next_Goal",
+              "displayName": "Next_Goal",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "matchingColumns": []
+        },
+        "options": {}
+      },
+      "id": "55e0c6e6-1a6a-4120-b67d-cea8656b4e3b",
+      "name": "Record Data",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        1024,
+        112
+      ],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "Ao4nGfX2JBCMjnUa",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Prepare Data').item.json.chatId }}",
+        "text": "={{ $('AI Coaching Engine').item.json.output }}",
+        "additionalFields": {
+          "appendAttribution": false
+        }
+      },
+      "id": "8fd680e2-c6dd-43cf-a4b7-9a9f6152c80e",
+      "name": "Send Response",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        1248,
+        112
+      ],
+      "webhookId": "d96f6372-4028-445c-b22b-47783b2b9db9",
+      "credentials": {
+        "telegramApi": {
+          "id": "ZEZ3WeL44y7DiP6J",
+          "name": "Telegram account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Telegram Trigger": {
+      "main": [
+        [
+          {
+            "node": "Read History",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read History": {
+      "main": [
+        [
+          {
+            "node": "Prepare Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare Data": {
+      "main": [
+        [
+          {
+            "node": "AI Coaching Engine",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Coaching Engine": {
+      "main": [
+        [
+          {
+            "node": "Record Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Coaching Engine",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Window Buffer Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "AI Coaching Engine",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Record Data": {
+      "main": [
+        [
+          {
+            "node": "Send Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "84d26e3c-0b4b-430a-9161-2d40588dc61a",
+  "meta": {
+    "instanceId": "13d6e05a2b3dfc854b3ac724b3e8b9d36d5e1ad1c258174ed75bd2d32cea5d6a"
+  },
+  "nodeGroups": [],
+  "id": "sm2cvAeK4x1NAWX3",
+  "tags": []
+}
