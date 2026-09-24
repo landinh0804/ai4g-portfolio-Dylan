@@ -1,0 +1,79 @@
+TEMPORARY AGENCY EMPLOYMENT CONTRACT (PHASE A, WITH AGENCY CLAUSE)
+English translation provided by the agency. The Dutch text prevails.
+
+Between:
+Northfield Staffing Solutions B.V., registered in Zoetermeer, Industrieweg 44,
+Chamber of Commerce number 61234567, hereinafter "the agency",
+
+and:
+[worker name removed], date of birth [removed],
+hereinafter "the agency worker".
+
+Article 1 - Nature of this contract
+1.1 The agency worker enters the employment of the agency in order to be placed at
+the disposal of a client company.
+1.2 This contract is concluded in phase A and includes the agency clause.
+
+Article 2 - Working hours
+2.1 No minimum number of working hours per week is guaranteed. The agency worker is
+called upon according to the needs of the client company.
+2.2 The agency worker is obliged to respond to a call.
+
+Article 3 - Duration and ending
+3.1 This contract starts on the first day of the placement.
+3.2 The employment contract ends by operation of law on the same day that the
+placement ends at the request of the client company, without notice being required.
+3.3 The agency worker must give one (1) month's notice in order to end this contract.
+3.4 The agency may end the placement by giving two (2) working days' notice.
+
+Article 4 - Pay
+4.1 The gross hourly wage is EUR 14,20 per hour worked.
+4.2 Travel time and waiting time at the location do not count as hours worked.
+4.3 Part of the pay is paid out as an untaxed allowance for living expenses, amounting
+to EUR 1,85 per hour worked. This part does not count towards the pension basis.
+
+Article 5 - Placement costs
+5.1 For recruitment, selection and placement the agency worker owes a one-off
+placement fee of EUR 295,00, to be settled by deduction from the first wage payment.
+
+Article 6 - Advance for travel costs
+6.1 The agency provides an advance of EUR 375,00 to cover the journey to the
+Netherlands and the application for documents.
+6.2 The advance is repaid by a deduction of EUR 95,00 per month from the net wage
+until it has been repaid in full.
+6.3 If this contract ends within six months, the remaining amount becomes payable
+immediately and in full.
+
+Article 7 - Accommodation, transport and insurance
+7.1 The agency makes accommodation available in connection with the placement. The
+conditions are set out in the accommodation annex.
+7.2 Transport to and from the work location is arranged by the agency for a charge of
+EUR 75,00 per month. The right to transport lapses when the placement ends.
+7.3 The agency worker participates in the collective health insurance arranged through
+the agency. The premium of EUR 150,00 per month is deducted from the wage.
+Participation ends at the end of the month in which the employment contract ends.
+
+Article 8 - Other work
+8.1 During this contract the agency worker may not carry out work for third parties,
+paid or unpaid, without the prior written permission of the agency.
+
+Article 9 - Taking up employment with the client company
+9.1 If the agency worker enters the employment of the client company, or of a company
+affiliated with it, within twelve months after the end of the placement, the agency
+worker owes the agency compensation of EUR 2.000,00 for lost income.
+
+Article 10 - Company property
+10.1 In the event of loss of or damage to work clothing, safety shoes or an access
+pass provided, the agency worker owes an amount of EUR 125,00 per item, to be
+deducted from the next wage payment.
+
+Article 11 - Identity documents
+11.1 At the start of the placement the agency worker hands their identity document to
+the agency. The document is kept in the administration for the duration of this
+contract and is returned when the employment ends.
+
+Agreed and signed at ______________ on ____ - ____ - ________
+
+[This is a sample document, written for testing software. It concerns no existing
+company and no existing person. The worker's name, date of birth and address have
+been removed, as the README asks every user of this tool to do.]

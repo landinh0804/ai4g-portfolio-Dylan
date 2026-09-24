@@ -1,0 +1,29 @@
+[project]
+name = "contract-trap-finder"
+version = "0.1.0"
+description = "Reads the bundle of documents a labour migrant is asked to sign and shows what is illegal, what shifts every risk onto them, and where they are offered less than the law promises."
+requires-python = ">=3.11"
+dependencies = [
+    "google-genai>=1.0.0",
+    "pydantic>=2.7",
+    "streamlit>=1.37",
+    "pypdf>=4.2",
+    "python-dotenv>=1.0",
+]
+
+[project.scripts]
+contract-trap-finder = "contract_trap_finder.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+contract_trap_finder = ["rules/*.json", "llm/prompts/*.md"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

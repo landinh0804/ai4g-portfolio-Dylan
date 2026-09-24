@@ -1,0 +1,26 @@
+# LLM API (Gemini) — the required live API calls
+google-genai>=1.0.0
+
+# The local backend talks to Ollama over plain HTTP. Streamlit already pulls this
+# in, but the code imports it directly, so it is declared directly.
+requests>=2.31
+
+# Data validation / schemas for every LLM boundary
+pydantic>=2.7
+
+# UI
+streamlit>=1.37
+
+# Document ingestion (text + PDF)
+pypdf>=4.2
+
+# The take-away sheet: a .docx the worker can print, keep and hand to somebody.
+# python-docx rather than a PDF writer because the sheet is meant to be editable by
+# a caseworker who wants to add a note before printing it.
+python-docx>=1.1
+
+# Config
+python-dotenv>=1.0
+
+# Tests
+pytest>=8.0
