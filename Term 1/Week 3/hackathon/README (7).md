@@ -15,7 +15,7 @@ to.
 | | Link | Where it is in the portfolio |
 |---|---|---|
 | **Presentation** | *To be added* | `ai4g-portfolio-LucasJansze/Term 1/Week 3/presentation/` |
-| **Demo video** | *To be added* | `ai4g-portfolio-LucasJansze/Term 1/Week 3/presentation/` |
+| **Demo video** | [*To be added* | `ai4g-portfolio-LucasJansze/Term 1/Week 3/presentation/`](https://youtu.be/ry85yNQUKX4) |
 
 The hackathon files themselves are in `ai4g-portfolio-LucasJansze/Term 1/Week 2/hackathon/`.
 
