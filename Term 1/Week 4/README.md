@@ -10,7 +10,7 @@ Homework: polish the analyzer, run it on a piece of **real public text**, and ex
 
 **What did I hand in?**
 - [`homework/Week4_Workshop_Student.ipynb`](homework/Week4_Workshop_Student.ipynb) contains:
-  - Exercises 1–3 (clean one response, word frequencies with stopwords, read/write `feedback.txt` and `report.txt`) and the reflection on whose voices are missing from the data
+  - Exercises 1-3 (clean one response, word frequencies with stopwords, read/write `feedback.txt` and `report.txt`) and the reflection on whose voices are missing from the data
   - **Community Feedback Analyzer**: one helper function per job (`read_responses`, `clean_words`, `count_words`, `top_keywords`, `find_urgent`, `build_report`, …). It writes `feedback_report.txt`, and includes all 3 bonus features: sentiment score, word search, and numbers found with `re.findall`
   - **Homework**: the same analyzer, unchanged, run on **1000 real Yelp reviews** (UCI *Sentiment Labelled Sentences*, Kotzias et al. 2015), with a write-up of what it reveals and what it misses
 
@@ -36,7 +36,7 @@ The analyzer worked on the small practice file, but the real data showed its lim
 **SDG we had to address:** SDG 13, Climate Action
 
 **What problem does it solve, and for whom?**
-From 1 Jan 2023 to 30 Mar 2025, ocean heat hit 84% of the world's coral reefs (ICRI, 2025), but Dutch/EU 18–30-year-olds still see climate change as slow and far away. The film shows them, in a format they actually watch (short, vertical, sound-off), that this collapse already happened.
+From 1 Jan 2023 to 30 Mar 2025, ocean heat hit 84% of the world's coral reefs (ICRI, 2025), but Dutch/EU 18-30-year-olds still see climate change as slow and far away. The film shows them, in a format they actually watch (short, vertical, sound-off), that this collapse already happened.
 
 **What did you build?**
 A ComfyUI workflow (Wan 2.2 TI2V 5B, text-to-video) that generates every frame of a 7-shot film from text prompts, plus the film itself, cut in CapCut with a voiceover made in ComfyUI (Kokoro TTS). Any shot can be regenerated from the prompt, seed and frame count in the shot list.
