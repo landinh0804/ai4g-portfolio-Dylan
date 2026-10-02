@@ -6,11 +6,11 @@
 
 **What was the assignment?**
 My first machine-learning models with scikit-learn, on a real breast-cancer screening dataset: KNN, logistic regression and decision trees, overfitting, and reading a confusion matrix. Then the big individual assignment, **Build & Evaluate Your Own Classifier**.
-Homework: (1) run the Titanic wrap-up section (the 8-step recipe for messy data) and do its 4 *Your turn* cells; (2) finish the classifier and run the same workflow on a **second dataset**, with a paragraph comparing the results; (3) DataCamp *Supervised Learning with scikit-learn*, chapters 1–4.
+Homework: (1) run the Titanic wrap-up section (the 8-step recipe for messy data) and do its 4 *Your turn* cells; (2) finish the classifier and run the same workflow on a **second dataset**, with a paragraph comparing the results; (3) DataCamp *Supervised Learning with scikit-learn*, chapters 1-4.
 
 **What did I hand in?**
 - [`homework/Week5_Workshop_Student.ipynb`](homework/Week5_Workshop_Student.ipynb) contains:
-  - Exercises 1–3: KNN (96.5%), logistic regression vs trees, the overfitting tree (100% train / 95.1% test), and the confusion matrix (4 dangerous misses, 1 false alarm), plus the reflection on which error is worse
+  - Exercises 1-3: KNN (96.5%), logistic regression vs trees, the overfitting tree (100% train / 95.1% test), and the confusion matrix (4 dangerous misses, 1 false alarm), plus the reflection on which error is worse
   - **Big assignment**: one reusable `run_workflow()` function (split → 4 models → tune k with a plot → classification report → confusion matrix of the best model). Best on breast cancer: logistic regression + scaler, **98.6%**, with 1 missed cancer in 143 test patients
   - **Second dataset (wine)** with a comparison table and paragraph: scaling lifts KNN from 0.78 to 0.93 on wine; logistic regression wins on both datasets
   - **Titanic wrap-up**, all 4 *Your turn* cells: the cheat column (`alive`) and copied columns, tuning the tree depth (best depth 4; deeper trees overfit), fairness per class (3rd class served worst), and a person on the Titanic (11% as male vs 64% as female)
@@ -22,7 +22,7 @@ Understanding why accuracy alone isn't enough. On breast cancer, 96.5% sounded g
 - [x] My workshop / homework files are in `homework/`
 - [x] Everything runs without errors, or I explained what does not and why
 
-> DataCamp chapters 1–4: still to do on my own DataCamp account (progress is tracked there, not in this repo).
+> DataCamp chapters 1-4: still to do on my own DataCamp account (progress is tracked there, not in this repo).
 
 ---
 
