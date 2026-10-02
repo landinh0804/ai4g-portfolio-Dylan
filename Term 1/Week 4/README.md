@@ -25,40 +25,39 @@ The analyzer worked on the small practice file, but the real data showed its lim
 
 ## 2. Hackathon prototype -> [`hackathon/`](hackathon/)
 
-> Your tool and your SDG for this hackathon are announced at the **start of Friday's class**.
-> Write them down here once you know them.
+> Full write-up: **[`hackathon/README.md`](hackathon/README.md)**
 
-**Project title:**
+**Project title:** Silent Tides, a 35-second climate film about coral bleaching
 
-**My pair partner:**
+**My pair partner:** Evaldas
 
-**Tool we had to use:**
+**Tool we had to use:** ComfyUI
 
-**SDG we had to address:**
+**SDG we had to address:** SDG 13, Climate Action
 
 **What problem does it solve, and for whom?**
-_Name a real, specific user. "Everyone" is not a user._
+From 1 Jan 2023 to 30 Mar 2025, ocean heat hit 84% of the world's coral reefs (ICRI, 2025), but Dutch/EU 18–30-year-olds still see climate change as slow and far away. The film shows them, in a format they actually watch (short, vertical, sound-off), that this collapse already happened.
 
 **What did you build?**
-_Two or three sentences. What can a user actually do with it?_
+A ComfyUI workflow (Wan 2.2 TI2V 5B, text-to-video) that generates every frame of a 7-shot film from text prompts, plus the film itself, cut in CapCut with a voiceover made in ComfyUI (Kokoro TTS). Any shot can be regenerated from the prompt, seed and frame count in the shot list.
 
-**Link to the live thing (if any):**
-_Deployed URL, workflow export, video demo - whatever proves it works._
+**Link to the live thing (if any):** [YouTube link]. Workflow: [`hackathon/workflow/silent_tides_workflow.json`](hackathon/workflow/silent_tides_workflow.json)
 
 **How do I run it?**
-_Short instructions so someone else can start it._
+Install ComfyUI, download the 3 Wan 2.2 model files, load the workflow JSON, paste a shot's prompt, set seed 112233 (fixed) and the frame count (97, or 113 for shots 4 and 7), and click Run. Full steps are in the [hackathon README](hackathon/README.md#7-how-to-run--regenerate-a-shot).
 
 **Who did what?**
-_Be honest about the split of work between you and your partner._
+- **Lan Dinh (me):** storyboard and shot list, refining the workflow (prompts, seeds, frame lengths), rendering all 7 shots, README and ethical reflection
+- **Evaldas:** base ComfyUI workflow (Wan 2.2 setup), voiceover (Kokoro TTS in ComfyUI), editing the final cut in CapCut
 
 **Ethical reflection - what are the risks of your tool? Who could it harm?**
-_Every hackathon requires this. One honest paragraph beats three vague ones._
+The footage is photoreal enough to be taken for documentary footage of a real reef. If it's shared as "the Great Barrier Reef now" and debunked, it hurts trust in real reef footage and gives climate deniers an easy argument. We never name a real place, the film ends with an on-screen "AI-generated imagery & voice" card, and the only hard number is sourced, so viewers can check it. The voice is AI too, but a stock voice, not a clone of anyone. Making the film used about 1.2 kWh for 15 renders, and only a quarter of that went into the 7 clips in the film. Full reflection in the [hackathon README](hackathon/README.md#9-ethical-reflection).
 
 ### Checklist
-- [ ] Prototype code (or export / workflow file) is in `hackathon/`
+- [x] Prototype code (or export / workflow file) is in `hackathon/`
 - [ ] This week's slides are in `hackathon/`
-- [ ] The prototype actually runs, and I wrote down how to run it
-- [ ] Ethical reflection written above
+- [x] The prototype actually runs, and I wrote down how to run it
+- [x] Ethical reflection written above
 
 ---
 
