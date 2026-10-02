@@ -55,7 +55,7 @@ The footage is photoreal enough to be taken for documentary footage of a real re
 
 ### Checklist
 - [x] Prototype code (or export / workflow file) is in `hackathon/`
-- [ ] This week's slides are in `hackathon/`
+- [x] This week's slides are in `hackathon/` ([`silent_tides_slides.pdf`](hackathon/silent_tides_slides.pdf))
 - [x] The prototype actually runs, and I wrote down how to run it
 - [x] Ethical reflection written above
 
