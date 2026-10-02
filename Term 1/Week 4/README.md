@@ -41,7 +41,7 @@ From 1 Jan 2023 to 30 Mar 2025, ocean heat hit 84% of the world's coral reefs (I
 **What did you build?**
 A ComfyUI workflow (Wan 2.2 TI2V 5B, text-to-video) that generates every frame of a 7-shot film from text prompts, plus the film itself, cut in CapCut with a voiceover made in ComfyUI (Kokoro TTS). Any shot can be regenerated from the prompt, seed and frame count in the shot list.
 
-**Link to the live thing (if any):** [YouTube link]. Workflow: [`hackathon/workflow/silent_tides_workflow.json`](hackathon/workflow/silent_tides_workflow.json)
+**Link to the live thing (if any):** film on YouTube: https://youtu.be/nW8UBwSIesA · MP4: [`hackathon/film/silent_tides.mp4`](hackathon/film/silent_tides.mp4) · Workflow: [`hackathon/workflow/silent_tides_workflow.json`](hackathon/workflow/silent_tides_workflow.json)
 
 **How do I run it?**
 Install ComfyUI, download the 3 Wan 2.2 model files, load the workflow JSON, paste a shot's prompt, set seed 112233 (fixed) and the frame count (97, or 113 for shots 4 and 7), and click Run. Full steps are in the [hackathon README](hackathon/README.md#7-how-to-run--regenerate-a-shot).
@@ -51,7 +51,7 @@ Install ComfyUI, download the 3 Wan 2.2 model files, load the workflow JSON, pas
 - **Evaldas:** base ComfyUI workflow (Wan 2.2 setup), voiceover (Kokoro TTS in ComfyUI), editing the final cut in CapCut
 
 **Ethical reflection - what are the risks of your tool? Who could it harm?**
-The footage is photoreal enough to be taken for documentary footage of a real reef. If it's shared as "the Great Barrier Reef now" and debunked, it hurts trust in real reef footage and gives climate deniers an easy argument. We never name a real place, the film ends with an on-screen "AI-generated imagery & voice" card, and the only hard number is sourced, so viewers can check it. The voice is AI too, but a stock voice, not a clone of anyone. Making the film used about 1.2 kWh for 15 renders, and only a quarter of that went into the 7 clips in the film. Full reflection in the [hackathon README](hackathon/README.md#9-ethical-reflection).
+The footage is photoreal enough to be taken for documentary footage of a real reef. If it's shared as "the Great Barrier Reef now" and debunked, it hurts trust in real reef footage and gives climate deniers an easy argument. We never name a real place, the film ends with an on-screen card saying "The video and voice is AI generated. The statistics are real and sourced.", and the only hard number is sourced, so viewers can check it. The voice is AI too, but a stock voice, not a clone of anyone. Making the film used about 1.2 kWh for 15 renders, and only a quarter of that went into the 7 clips in the film. Full reflection in the [hackathon README](hackathon/README.md#9-ethical-reflection).
 
 ### Checklist
 - [x] Prototype code (or export / workflow file) is in `hackathon/`
