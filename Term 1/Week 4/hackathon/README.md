@@ -1,9 +1,9 @@
 # Silent Tides
-### A 28-second climate short film, generated in ComfyUI
+### A 35-second climate short film, generated in ComfyUI
 **AI for Good — Hackathon 4 "Picture the Planet" · SDG 13: Climate Action**
 
-▶ **Watch on YouTube (unlisted):** TODO_PASTE_YOUTUBE_LINK
-🎬 **Film file:** [`film/silent_tides.mp4`](film/silent_tides.mp4)
+▶ **Watch on YouTube (unlisted):** https://youtu.be/nW8UBwSIesA
+🎬 **Film file:** [`film/silent_tides.mp4`](film/silent_tides.mp4) (720p copy; the 1080p original is on YouTube)
 🧩 **ComfyUI workflow:** [`workflow/silent_tides_workflow.json`](workflow/silent_tides_workflow.json)
 
 > ⚠️ **Every frame in this film is AI-generated.** It does not show any real reef, place or event. The statistics are real and the sources are listed below.
@@ -13,7 +13,7 @@
 ## Repository contents
 
 ```
-film/silent_tides.mp4               final cut (28 s of shots + end card, ≤ 35 s), 1080p
+film/silent_tides.mp4               final cut, 35 s (28 s of shots + AI-disclosure end card), 720p
 workflow/silent_tides_workflow.json ComfyUI workflow (Wan 2.2 TI2V 5B)
 clips/shot_01.mp4 … shot_07.mp4     raw ComfyUI output per shot
 frames/shot_01.png … shot_07.png    one still per shot (for the shot list)
@@ -25,7 +25,7 @@ README.md                           this file
 | Name | Contribution |
 |---|---|
 | **Lan Dinh** | Storyboard and shot list, refining the ComfyUI workflow (prompts, seeds, frame lengths), rendering all 7 shots, README and ethical reflection |
-| **Evaldas [TODO: surname]** | Base ComfyUI workflow (Wan 2.2 TI2V setup), voiceover (Kokoro TTS in ComfyUI), editing the final cut in CapCut |
+| **Evaldas** | Base ComfyUI workflow (Wan 2.2 TI2V setup), voiceover (Kokoro TTS in ComfyUI), editing the final cut in CapCut |
 
 ---
 
@@ -35,7 +35,7 @@ README.md                           this file
 
 - **What:** In a marine heatwave the water gets warmer than corals can tolerate. They expel the algae that live inside them and give them their colour and food, turn white ("bleaching"), and die if the heat lasts too long.
 - **How big:** From **1 January 2023 to 30 March 2025**, bleaching-level heat stress hit **84% of the world's reefs**. This is the fourth global bleaching event and the most intense on record. Earlier events reached 21% (1998), 37% (2010) and 68% (2014–2017).
-- **Where / who:** **82 countries, territories and economies** have been damaged, across the Pacific, Atlantic and Indian Oceans. About a third of all known marine life relies on reefs, and **one billion people** benefit from them directly or indirectly through food, jobs and coastal protection.
+- **Where / who:** **82 countries, territories and economies** have been damaged, across the Pacific, Atlantic and Indian Oceans. Reefs support about **a quarter of all marine species** (NOAA) — ICRI even puts it at a third of all known marine life — and **one billion people** benefit from them directly or indirectly through food, jobs and coastal protection.
 - **When:** It is still going on. It is not a forecast for 2100.
 
 **Main source:** International Coral Reef Initiative (ICRI), *"84% of the world's coral reefs impacted in the most intense global coral bleaching event ever"*, 23 April 2025: https://icriforum.org/4gbe-2025/. Every figure above comes from this page.
@@ -54,7 +54,7 @@ README.md                           this file
 **What they already believe:** "Climate change is real. It's about CO₂, melting ice and the future." What they haven't taken in is that a record-breaking, planet-wide ecosystem collapse **already happened, between 2023 and 2025**.
 
 **Who it's NOT for:**
-- **Marine biologists and climate-policy experts.** 28 seconds is far too simple for them.
+- **Marine biologists and climate-policy experts.** 35 seconds is far too simple for them.
 - **Climate deniers.** The film takes climate change as given and doesn't try to argue them round.
 - **Young children.** The bleached-reef shot is deliberately bleak.
 
@@ -72,16 +72,20 @@ README.md                           this file
 
 | Time | Line |
 |---|---|
-| 0:00–0:08 (shots 1–2) | "A third of all life in the sea depends on a reef." |
-| 0:08–0:16 (shots 3–4) | "The ocean has been absorbing our heat. Since 2023, that heat has hit 84% of the world's reefs." |
-| 0:16–0:24 (shots 5–6) | "This isn't a forecast. It already happened." |
-| 0:24–0:28 (shot 7) | "Reefs can recover if the heat stops. Cut emissions." |
+| 0:00–0:04 (shot 1) | "A quarter of all sea life depends on coral reefs." |
+| 0:04–0:08 (shot 2) | "But the ocean has been absorbing our heat." |
+| 0:08–0:16 (shots 3–4) | "When water gets too hot, corals begin to bleach. They push out their algae and turn white." |
+| 0:16–0:20 (shot 5) | "Heat stress hit eighty-four percent of the world's reef area." |
+| 0:20–0:28 (shots 6–7) | "Some reefs can recover, if the heat stops. Cut emissions. Act on SDG 13." |
+| 0:28–0:35 (end card) | "The video and voice is AI generated. The statistics are real and sourced." |
+
+Every line is also burned in as captions, so the film works with the sound off.
 
 ---
 
 ## 5. Shot list / storyboard
 
-**7 shots × 4 s = 28 s.** Every shot was generated with the same workflow (§6) and the **same fixed seed, `112233`**. Between shots only the positive prompt and the clip length changed. The prompts, seed and lengths below were read from the metadata that ComfyUI saves inside each output clip.
+**7 shots × 4 s = 28 s, plus a ~7 s black AI-disclosure end card = 35 s.** Every shot was generated with the same workflow (§6) and the **same fixed seed, `112233`**. Between shots only the positive prompt and the clip length changed. The prompts, seed and lengths below were read from the metadata that ComfyUI saves inside each output clip.
 
 **Shared negative prompt:** the Wan 2.2 default negative prompt (in Chinese, it blocks oversaturation, static frames, blur, subtitles, deformed bodies and similar) **plus** `text, watermark, logo, human faces, cartoon, 3d render, plastic look, flicker, morphing geometry`
 
@@ -112,7 +116,7 @@ Shots 06–07 show only *partial* recovery on purpose. Reefs that bleach badly t
 | 1 | Shot list (§5) | We write one text prompt per shot. | 7 prompts | — |
 | 2 | One prompt + seed 112233 + frame length | **Wan 2.2 generates the video from the text alone.** No image, photo or footage goes in. | One vertical 480×832 clip per shot, 24 fps | **ComfyUI** |
 | 3 | Voiceover script (§4) | Kokoro TTS reads the script aloud. | Voiceover audio (.wav) | **ComfyUI** |
-| 4 | 7 clips + voiceover + music | The clips are put in order, trimmed to 4 s each, and captions and the AI-disclosure card are added. | `film/silent_tides.mp4`, 28 s | CapCut |
+| 4 | 7 clips + voiceover | The clips are put in order, trimmed to 4 s each, and captions and the black AI-disclosure end card are added. | `film/silent_tides.mp4`, 35 s | CapCut |
 
 **Why the film can't exist without ComfyUI:** every image and every second of motion in the film comes out of step 2. Without it there's no footage at all, because we didn't use any camera, stock video or photos. The only alternatives would be filming a real bleached reef, which we have no access to, or using stock footage, which the brief doesn't allow. CapCut only cuts and labels clips that ComfyUI made. It doesn't generate anything.
 
@@ -160,7 +164,7 @@ ComfyUI/models/
 4. In **Wan22ImageToVideoLatent**, set `length` to that shot's frame count from §5: **97**, or **113** for shots 04 and 07.
 5. Click **Run**. The clip is saved to `ComfyUI/output/video/`.
 
-**4. Rebuild the film:** put clips 01–07 in order in **CapCut**, add the Kokoro voiceover, music and captions, and export as MP4 at 720p or 1080p.
+**4. Rebuild the film:** put clips 01–07 in order in **CapCut**, add the Kokoro voiceover, captions and the black end card, and export as MP4 at 720p or 1080p.
 
 **Reproducibility note:** the same seed, prompt, settings and model files produce the same clip. A different GPU or PyTorch version can cause small pixel differences.
 
@@ -170,8 +174,8 @@ ComfyUI/models/
 
 ## 8. Sound
 
-- **Voiceover:** generated **inside ComfyUI** with the Kokoro TTS custom node (ComfyUI-KokoroTTS, installed via ComfyUI-Manager) from the script in §4. TODO: name the Kokoro voice used. The brief allows sound generated in ComfyUI. No third-party AI voice tools (ElevenLabs etc.) were used.
-- **Music / ambience:** TODO: track name, source URL, licence (must be royalty-free).
+- **Voiceover:** generated **inside ComfyUI** with the Kokoro TTS custom node (ComfyUI-KokoroTTS, installed via ComfyUI-Manager) from the script in §4, using one of Kokoro's stock voices. The brief allows sound generated in ComfyUI. No third-party AI voice tools (ElevenLabs etc.) were used.
+- **Captions:** generated from the voiceover and burned in during the CapCut edit.
 
 ---
 
@@ -179,7 +183,7 @@ ComfyUI/models/
 
 | Risk | What it would mean for our viewers | What we did about it |
 |---|---|---|
-| **The footage gets taken for real documentary footage.** It looks photoreal, but it isn't any real reef. | A viewer screenshots shot 05, shares it as "the Great Barrier Reef right now", and someone debunks it. Fake images in climate communication give deniers an easy argument, and they can make viewers distrust *real* reef footage too. | We never name or suggest a real location. The film ends with a card that says **"AI-generated imagery & voice · Data: ICRI 2025"**, and the same note is in the YouTube description and at the top of this README. The images show *how* bleaching works, while the one hard number (84%) comes from a cited source, so viewers can check the claim without trusting the pictures. |
+| **The footage gets taken for real documentary footage.** It looks photoreal, but it isn't any real reef. | A viewer screenshots shot 05, shares it as "the Great Barrier Reef right now", and someone debunks it. Fake images in climate communication give deniers an easy argument, and they can make viewers distrust *real* reef footage too. | We never name or suggest a real location. The film ends on a black end card (0:28–0:35) with the on-screen text **"The video and voice is AI generated. The statistics are real and sourced."**, and the same note is at the top of this README. The images show *how* bleaching works, while the one hard number (84%) comes from a cited source, so viewers can check the claim without trusting the pictures. |
 | **The voice sounds like a real narrator.** | Viewers might assume a real expert or organisation is speaking. | The voice is a stock Kokoro TTS voice generated in ComfyUI, not a clone of a real person. It's disclosed on the same end card. |
 | **Emotional manipulation.** Shot 05 is designed to feel bleak. | Climate despair makes young people tune out. That's the opposite of what we want from this audience. | Shots 06–07 end on *partial, conditional* recovery: realistic hope without a fake happy ending. The bleakness is backed by a real, sourced number, so it's persuasion based on facts, not exaggeration. |
 | **The training data was used without consent.** | Wan 2.2 learned from imagery scraped from the web, likely including underwater photographers' work, without paying or asking them. | We can't fix this ourselves. We kept the project non-commercial and state it openly here. |
@@ -209,7 +213,7 @@ We think that's a small, defensible cost for a film meant to reach thousands of 
 The audience believes in climate change but thinks of it as something far away and in the future. The film is built around that:
 
 - **The damage is hidden underwater.** So the whole film is shot underwater, and the viewer watches the reef die from inside it.
-- **It feels slow and far away.** So a three-year event is squeezed into 28 seconds, and the film says it *already happened*. No forecast for 2100.
+- **It feels slow and far away.** So a three-year event is squeezed into seconds, and the 84% is told in the past tense ("heat stress *hit*"). It already happened, not a forecast for 2100.
 - **People can't picture bleaching.** So shot 04 shows the coral itself turning white.
 - **The audience scrolls with about 3 seconds of patience.** So the film opens on a beautiful reef, is short and vertical, and works with the sound off.
 - **Doom with nothing to do makes people tune out.** So shots 06–07 end on recovery that is still possible and depends on cutting emissions.
@@ -218,7 +222,7 @@ The audience believes in climate change but thinks of it as something far away a
 
 **Why this audience?** They have the most years of climate impact ahead of them and the most voting and spending decisions still to make, and short-form platforms reach them for almost nothing.
 
-**What we realistically expect:** not that one 28-second video changes anyone's behaviour. A realistic success is that viewers remember "84%, already happened" and share the video. Those are small steps, but they are what moves climate change from "later" to "now" for this group.
+**What we realistically expect:** not that one 35-second video changes anyone's behaviour. A realistic success is that viewers remember "84%, already happened" and share the video. Those are small steps, but they are what moves climate change from "later" to "now" for this group.
 
 ---
 
