@@ -1,4 +1,4 @@
-# Term 1 - Week 5: Machine Learning Basics
+﻿# Term 1 - Week 5: Machine Learning Basics
 
 ---
 
@@ -29,40 +29,42 @@ Understanding why accuracy alone isn't enough. On breast cancer, 96.5% sounded g
 
 ## 2. Hackathon prototype -> [`hackathon/`](hackathon/)
 
-> Your tool and your SDG for this hackathon are announced at the **start of Friday's class**.
-> Write them down here once you know them.
+Full write-up: [`hackathon/README.md`](hackathon/README.md)
 
-**Project title:**
+**Project title:** Who misses the extra grant? A model showdown on income data (UCI Adult)
 
-**My pair partner:**
+**My pair partner:** Nina Borutyńska
 
-**Tool we had to use:**
+**Tool we had to use:** scikit-learn (KNN, logistic regression and a random forest, in a Jupyter notebook)
 
-**SDG we had to address:**
+**SDG we had to address:** SDG 8, Decent Work and Economic Growth
 
 **What problem does it solve, and for whom?**
-_Name a real, specific user. "Everyone" is not a user._
+In the Netherlands, 24% of first-year hbo/wo students who are entitled to the aanvullende beurs never use it, and they miss about EUR 175 a month (CPB, 2018 data). A DUO team member has to decide which students get an information letter about it. Our model predicts whether a person earns $50K or less (a stand-in for "parents may be entitled") and ranks people by that probability. It is trained on 1994 US Census data, so it is a demonstration of the method and not a tool for Dutch students.
 
 **What did you build?**
-_Two or three sentences. What can a user actually do with it?_
+A notebook that takes the UCI Adult dataset (48,842 people) from the raw file to a fair comparison of a baseline and three tuned models: split first, a scikit-learn Pipeline, 5-fold cross-validation, one evaluation on the test set, an error analysis by sex and race, and a prediction for a made-up person. We recommend the random forest (balanced accuracy 0.827 on the test set), with conditions: it misses 17% of low-income people, so the letter cannot be the only channel.
 
-**Link to the live thing (if any):**
-_Deployed URL, workflow export, video demo - whatever proves it works._
+**Link to the live thing (if any):** notebook: [`hackathon/hackathon5_model_showdown.ipynb`](hackathon/hackathon5_model_showdown.ipynb) (runs in Google Colab) · slides: [`hackathon/Hackathon5_slides.pptx`](hackathon/Hackathon5_slides.pptx)
 
 **How do I run it?**
-_Short instructions so someone else can start it._
+Open the notebook in Google Colab and choose Runtime > Run all. It downloads `adult.csv` if the file is not next to the notebook. A full run takes about 15 minutes. Packages, versions and a pandas 3 note are in [`hackathon/README.md`](hackathon/README.md).
 
 **Who did what?**
-_Be honest about the split of work between you and your partner._
+- Nina: the notebook (data exploration, split, pipeline, baseline, the three tuned models, comparison table, error analysis, prediction)
+- Lan Dinh (me): problem definition and sources, user group, ethical reflection, README and slides, testing that the notebook runs
+- Together: the recommendation and preparing for questions
 
 **Ethical reflection - what are the risks of your tool? Who could it harm?**
-_Every hackathon requires this. One honest paragraph beats three vague ones._
+The data is from the 1994 US Census, so the model says nothing about Dutch students and must not be used on them before it is trained again on recent Dutch data. Sex and race are features, and the model learns old patterns from them: it finds 96% of low-income women but only 75% of low-income men, and it misses 17% of all low-income people, mostly married men, because it learned "married man with a full-time job = high income". A student who is missed gets no letter and may lose money they are entitled to. We chose balanced accuracy instead of recall (a baseline that flags everyone has recall 1.0), checked the results per sex and race, and wrote in the README who must not use the model. We did not check age or native country, and removing sex and race would not remove them because marital status and occupation can stand in for them.
+
+**AI use:** I used Claude (Anthropic) to help write the README and slides, to review the notebook and to test that it runs. Claude also helped Nina write the notebook code. All numbers come from the notebook's outputs, and I checked that the text matches them.
 
 ### Checklist
-- [ ] Prototype code (or export / workflow file) is in `hackathon/`
-- [ ] This week's slides are in `hackathon/`
-- [ ] The prototype actually runs, and I wrote down how to run it
-- [ ] Ethical reflection written above
+- [x] Prototype code (or export / workflow file) is in `hackathon/`
+- [x] This week's slides are in `hackathon/`
+- [x] The prototype actually runs, and I wrote down how to run it
+- [x] Ethical reflection written above
 
 ---
 
@@ -87,3 +89,4 @@ Every model follows the same four steps (choose → fit → predict → score), 
 A model learns the history inside its data. The Titanic model finds 96% of the women who survived but only 12% of the men, and it serves 3rd class worst. Used to decide who gets help first today, it would automate 1912's unfair rules with confidence. In healthcare the same thing can happen when a model trained on one hospital's patients is used on another population. That's why you check results per group, and why a doctor, not the model, makes the decision.
 
 **AI use:** I used Claude (Anthropic) to help write and run the notebook code and to word the reflections. All numbers come from actually running the notebook in Colab, and I checked that the answers match the outputs.
+
