@@ -27,40 +27,38 @@ The model's confidence was the surprise: it was 94% to 99% sure that friendly Ge
 
 ## 2. Hackathon prototype -> [`hackathon/`](hackathon/)
 
-> Your tool and your SDG for this hackathon are announced at the **start of Friday's class**.
-> Write them down here once you know them.
+Full write-up: [`hackathon/README.md`](hackathon/README.md)
 
-**Project title:**
+**Project title:** Bahn-Puls: live passenger sentiment for Deutsche Bahn (Live Pulse)
 
-**My pair partner:**
+**My pair partner:** Felix Reichle (group 12)
 
-**Tool we had to use:**
+**Tool we had to use:** a pre-trained Hugging Face sentiment model that we run ourselves (we used two, `oliverguhr/german-sentiment-bert` and `cardiffnlp/twitter-xlm-roberta-base-sentiment`), on a live public data stream, with no chat model doing the sentiment analysis.
 
-**SDG we had to address:**
+**SDG we had to address:** SDG 9, Industry, Innovation and Infrastructure (main target 9.1, secondary 9.4)
 
 **What problem does it solve, and for whom?**
-_Name a real, specific user. "Everyone" is not a user._
+A regional customer-communication team at Deutsche Bahn (or a passenger association such as Pro Bahn) has to decide every morning which issue gets proactive communication: delays, construction, the app, or on-board problems. Passengers complain on social media long before it shows in official statistics, and punctuality is at a record low (52.4% of long-distance trains on time in September 2026). Bahn-Puls shows which topic is more negative than its own 7-day baseline, and the posts behind it.
 
 **What did you build?**
-_Two or three sentences. What can a user actually do with it?_
+A collector that searches Bluesky for German rail posts every 10 minutes, filters out bots and off-topic posts, stores the text with a timestamp (no author data), scores every post with both models, and a Streamlit dashboard that charts the negative share per topic per day or hour and lets you open the posts behind a point. It ran unattended for more than 48 hours.
 
-**Link to the live thing (if any):**
-_Deployed URL, workflow export, video demo - whatever proves it works._
+**Link to the live thing (if any):** the dashboard is at https://pulse-deutsche-bahn.streamlit.app/ and the collector's runs are in Felix's repo: https://github.com/flxr8/ai4g-portfolio-felix-reichle/actions
 
 **How do I run it?**
-_Short instructions so someone else can start it._
+`cd "Term 1/Week 6/hackathon"`, create a Python environment, `pip install torch --index-url https://download.pytorch.org/whl/cpu`, `pip install -r requirements.txt`, then `python -m pulse.collect` for one collection cycle and `streamlit run dashboard.py` for the dashboard. Full steps are in `hackathon/README.md` section 7. The first run downloads about 1.5 GB of models.
 
 **Who did what?**
-_Be honest about the split of work between you and your partner._
+Felix built the collector and filters, the GitHub Actions scheduler, the dashboard and its hosting, the evaluation code and the model cards. I ran a second, independent collection on my laptop (739 posts over 50 hours, 301 runs, none failed, kept in `hackathon/dylan_run/`), checked the data and the model results, read Bluesky's terms, wrote the SDG 9, results and failure-analysis text, and made the slides. We shared the choice of stream and the 50 hand labels. An AI coding assistant (Claude) helped with code, checks and drafting; the sentiment itself is scored only by the two pre-trained models.
 
 **Ethical reflection - what are the risks of your tool? Who could it harm?**
-_Every hackathon requires this. One honest paragraph beats three vague ones._
+The main harm is to passengers who are misread. In our 50-post test the models agreed with our own labels only 50% to 54% of the time, and they miss sarcasm, read plain service notices as neutral, and score posts that are not about rail. If a communication team used the dashboard as a measurement, it could ignore real problems or chase false ones, so we describe it as a trend indicator only. The second risk is to the people whose public Bluesky posts we collect without asking: we store no handles, names or post URLs, but the post texts are public and we do not re-check deletions, so we only partly meet Bluesky's rule to delete content users removed. The data is also not representative, because Bluesky users skew young, urban and online and people post when something goes wrong. It must not be used to judge staff, contact passengers or rank lines on a handful of posts.
 
 ### Checklist
-- [ ] Prototype code (or export / workflow file) is in `hackathon/`
-- [ ] This week's slides are in `hackathon/`
-- [ ] The prototype actually runs, and I wrote down how to run it
-- [ ] Ethical reflection written above
+- [x] Prototype code (or export / workflow file) is in `hackathon/`
+- [x] This week's slides are in `hackathon/`
+- [x] The prototype actually runs, and I wrote down how to run it
+- [x] Ethical reflection written above
 
 ---
 
@@ -79,6 +77,7 @@ _Every hackathon requires this. One honest paragraph beats three vague ones._
 ## 4. Reflection
 
 **What is the most important thing I learned this week?**
+A language model can be confidently wrong, so its confidence score is not a warning light. Both in the workshop test and in the hackathon, the models were 90% to 100% sure on sarcasm, slang and non-English text they got wrong. The only way to know is to label a sample yourself and compare.
 
 **Where does this connect to "AI for Good"?**
-_One concrete link to ethics, sustainability or social impact._
+Bahn-Puls could help a railway company warn passengers earlier (SDG 9), but only if it is used as a rough trend indicator with a person checking. The people it can hurt are the passengers who are misread, especially those who write in other languages or in slang, and the people whose public posts are collected without being asked.
