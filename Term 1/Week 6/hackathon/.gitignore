@@ -1,0 +1,13 @@
+.env
+.venv/
+.hf-cache/
+__pycache__/
+
+# The live DB is on the `bahn-puls-data` branch; data/pulse.db is the committed
+# snapshot for the submission. Everything else in data/ (local copies, test
+# runs) stays out.
+data/*
+!data/pulse.db
+
+# SentiWS is CC BY-NC-SA: downloaded on demand by evaluate.py, not redistributed.
+eval/sentiws/

@@ -1,0 +1,141 @@
+# Bahn-Puls configuration: queries, filters and topics live here so they can
+# be tuned without touching code.
+
+# Bluesky search ANDs the words of a query (no exact phrase). Precise phrases
+# are rare (~1-5 posts/day), broader words give the volume.
+queries:
+  - Zug fällt aus
+  - Zugausfall
+  - Zugausfälle
+  - Anschluss verpasst
+  - DB Navigator
+  - Schienenersatzverkehr
+  - ICE Verspätung
+  - S-Bahn Ausfall
+  - Stellwerksstörung
+  - Weichenstörung
+  - Bahnchaos
+  - Bahnstreik
+  - Zugbegleiter
+  - Zug voll
+  - Klimaanlage Zug
+  - Deutsche Bahn
+  - Deutschlandticket
+  - S-Bahn
+  - Regionalbahn
+  - Regionalexpress
+  - Bahnsteig
+  - Bahnfahrt
+  - Oberleitung
+  - im Zug
+
+# Ambiguous words ("Verspätung" also means flights or parcels): a post found
+# only by these is kept only if it also matches `rail_context`.
+context_queries:
+  - Verspätung
+  - Verspätungen
+  - fällt aus
+  - überfüllt
+  - Bahnhof
+
+# Tighter than plain 'zug'/'bahn', which would match Anzug, Umzug, Autobahn.
+rail_context: ['\bzug(s|es)?\b', '\bzug(ausf|begleit|fahrt|verbind|personal|bindung|teil|führer)',
+               '(regional|nah|fern|nacht|güter|sonder|ersatz)zug', 'züge', '\bbahn', '-bahn',
+               'eisenbahn', '\bice\b', '\bic\b', '\b(re|rb|s)\s?\d{1,3}\b', 'gleis', '\bhbf\b',
+               '\bdb\b', '\bsev\b', 'stellwerk', 'fernverkehr', 'nahverkehr', 'öpnv', 'pendel']
+
+fetch:
+  backfill_hours: 24        # first run of a query: how far back to read
+  max_pages_per_query: 5    # 100 posts per page
+
+filters:
+  min_words: 4
+  max_backdate_days: 7      # createdAt is client-set; imported 2020 posts exist
+  bot_name_patterns: ['bot\b', '\bbot', 'rss', 'feed', 'ticker', 'automat', '🤖',
+                      'störungsmelder', 'verkehrsmeldung']
+  max_posts_per_author_per_hour: 6
+  template_repeat_threshold: 3
+
+# kind = "news" if the post links one of these (subdomains match), else "personal".
+news_domains: [tagesschau.de, spiegel.de, zeit.de, sueddeutsche.de, faz.net, bild.de,
+               n-tv.de, welt.de, t-online.de, tagesspiegel.de, focus.de, stern.de,
+               handelsblatt.com, rnd.de, taz.de, fr.de, zdf.de, zdfheute.de,
+               deutschlandfunk.de, dw.com, merkur.de, tz.de, euronews.com, br.de, ndr.de,
+               wdr.de, mdr.de, swr.de, rbb24.de, hr.de, hessenschau.de, sr.de,
+               radiobremen.de, butenunbinnen.de, abendblatt.de, mopo.de, lvz.de, ksta.de,
+               rp-online.de, stuttgarter-zeitung.de, berliner-zeitung.de, morgenpost.de,
+               waz.de, haz.de, weser-kurier.de, nordbayern.de, augsburger-allgemeine.de,
+               mainpost.de, general-anzeiger-bonn.de, wiwo.de, bahnblogstelle.com,
+               eurailpress.de, railbusiness.de, schiene.de]
+
+# Keywords are regexes matched case-insensitively from a word start, so
+# "verspät" matches "Verspätung"; "voll\b" avoids "vollständig".
+# Posts can have several topics; posts matching none are "other".
+topics:
+  delay_cancellation:
+    label: Delays & cancellations
+    keywords: ['verspät', 'fällt aus', 'fiel aus', 'ausgefallen', 'ausfall', 'zugausf',
+               'entfällt', 'entfallen', 'gestrichen', 'anschluss', 'unpünktlich', 'pünktlich',
+               'störung', 'stellwerk', 'weichen', 'oberleitung', 'umleitung', 'wartezeit',
+               'stecken ?geblieben', 'stehen seit', '\+\s?\d+\s?min', 'minuten später']
+  # Crowding and service were separate topics, but each got only ~6 personal
+  # posts/day, so their daily points never reached the 10-post minimum. Together
+  # (~12/day) they clear it, and they form one theme: what the ride itself is like.
+  onboard:
+    label: On-board experience (crowding, comfort, service)
+    keywords: [# crowding
+               'voll\b', 'überfüllt', 'rappelvoll', 'stehplatz', 'kein(en)? sitzplatz',
+               'kein platz', 'gedränge', 'sardinen', 'quetsch', 'gequetscht', 'kurzzug',
+               'halbe zuglänge', 'wagen fehl', 'reservierung', 'reserviert',
+               # comfort, cleanliness, staff
+               'klos?\b', 'toilette', 'wc\b', 'klima', 'heizung', 'wlan', 'wifi', 'w-lan',
+               'internet', 'funkloch', 'empfang', 'dreckig', 'schmutz', 'sauber', 'stinkt',
+               'personal', 'zugbegleit', 'schaffner', '(un)?freundlich', 'durchsage',
+               'bordbistro', 'speisewagen', 'aufzug', 'fahrstuhl', 'barrierefrei', 'rollstuhl']
+  app_ticket:
+    label: App & tickets
+    keywords: ['navigator', 'app\b', 'ticket', 'fahrkarte', 'sparpreis', 'flexpreis',
+               'bahncard', 'deutschlandticket', 'd-ticket', '\d\d[- ]euro[- ]ticket',
+               'fahrgastrecht', 'entschädigung', 'erstattung', 'zugbindung', 'buchung',
+               'gebucht', 'fahrpreis', 'kontrolle', 'kontrolleur']
+  construction:
+    label: Construction & replacement buses
+    keywords: ['baustelle', 'bauarbeiten', 'sanierung', 'generalsanierung', 'sev\b',
+               'schienenersatz', 'ersatzverkehr', 'ersatzbus', 'streckensperrung', 'sperrung',
+               'gesperrt', 'vollsperrung']
+  # Dormant: ~0 posts/day outside strikes, so the dashboard hides it. Kept
+  # because a strike sends it from zero to hundreds overnight, the most urgent
+  # signal a communication team could get.
+  strike:
+    label: Strikes
+    keywords: ['streik', 'warnstreik', 'gdl\b', 'evg\b', 'arbeitskampf', 'tarifverhandl',
+               'tarifstreit']
+  other:
+    label: Other / general
+    keywords: []
+
+# Pinned revisions so results are reproducible if the authors update the Hub repo.
+models:
+  m1:
+    name: oliverguhr/german-sentiment-bert
+    revision: b1177ff59e305c966836ba2825d3dc2efc53f125
+    tokenizer: oliverguhr/german-sentiment-bert
+    tokenizer_revision: b1177ff59e305c966836ba2825d3dc2efc53f125
+    preprocess: germansentiment
+    use_safetensors: true
+  m2:
+    name: cardiffnlp/twitter-xlm-roberta-base-sentiment
+    revision: f2f1202b1bdeb07342385c3f807f9c07cd8f5cf8
+    # The Cardiff repo has only the slow sentencepiece tokenizer (needs the extra
+    # `sentencepiece` package). Its sentencepiece.bpe.model is byte-identical to
+    # xlm-roberta-base's, so we use that repo's fast tokenizer: same token ids.
+    tokenizer: FacebookAI/xlm-roberta-base
+    tokenizer_revision: e73636d4f797dec63c3081bb6ed5c7b0bb3f2089
+    preprocess: cardiff
+    # Only a .bin exists; without this, transformers may fetch a safetensors
+    # conversion from an unmerged Hub PR, i.e. outside the pinned revision.
+    use_safetensors: false
+
+# Where the dashboard downloads the live DB (the collector's data branch).
+# In a copy of the project, change the user/repo part to that repo.
+live_db_url: https://raw.githubusercontent.com/flxr8/ai4g-portfolio-felix-reichle/bahn-puls-data/pulse.db

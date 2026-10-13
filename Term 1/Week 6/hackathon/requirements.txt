@@ -1,0 +1,11 @@
+# Locally, install the CPU-only torch wheel first (CI does the same):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.6           # loads .bin weights with weights_only=True (safe)
+transformers>=4.45,<6
+atproto>=0.0.60
+python-dotenv>=1.0
+pyyaml>=6.0
+pandas>=2.2
+streamlit>=1.50
+plotly>=5.24
+tzdata               # Europe/Berlin on Windows, which has no tz database
