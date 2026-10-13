@@ -1,0 +1,1413 @@
+﻿2026-10-10 00:38:39,739 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 00:39:10,641 INFO pulse.collect: run 2 finished ok=True new=0 errors=0
+2026-10-10 00:48:42,117 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={'no_rail_context': 1}
+2026-10-10 00:49:13,087 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 00:49:14,888 INFO pulse.collect: m1 classified 1 items
+2026-10-10 00:49:14,888 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 00:49:17,791 INFO pulse.collect: m2 classified 1 items
+2026-10-10 00:49:17,794 INFO pulse.collect: run 3 finished ok=True new=1 errors=0
+2026-10-10 00:58:38,660 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-10 00:58:44,568 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 00:58:45,619 INFO pulse.collect: m1 classified 1 items
+2026-10-10 00:58:45,619 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 00:58:48,049 INFO pulse.collect: m2 classified 1 items
+2026-10-10 00:58:48,054 INFO pulse.collect: run 4 finished ok=True new=1 errors=0
+2026-10-10 01:08:39,463 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 01:08:42,355 INFO pulse.collect: run 5 finished ok=True new=0 errors=0
+2026-10-10 01:18:38,884 INFO pulse.collect: fetched=2 kept=0 new=0 dropped={'no_rail_context': 2}
+2026-10-10 01:18:41,777 INFO pulse.collect: run 6 finished ok=True new=0 errors=0
+2026-10-10 01:28:39,076 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-10 01:28:41,980 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 01:28:42,747 INFO pulse.collect: m1 classified 1 items
+2026-10-10 01:28:42,747 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 01:28:44,511 INFO pulse.collect: m2 classified 1 items
+2026-10-10 01:28:44,513 INFO pulse.collect: run 7 finished ok=True new=1 errors=0
+2026-10-10 01:38:38,887 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 01:38:41,773 INFO pulse.collect: run 8 finished ok=True new=0 errors=0
+2026-10-10 01:48:39,240 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 01:48:45,339 INFO pulse.collect: run 9 finished ok=True new=0 errors=0
+2026-10-10 01:58:39,217 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'empty': 1}
+2026-10-10 01:58:45,392 INFO pulse.collect: run 10 finished ok=True new=0 errors=0
+2026-10-10 02:08:41,175 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-10 02:08:48,326 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 02:08:50,075 INFO pulse.collect: m1 classified 1 items
+2026-10-10 02:08:50,076 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 02:08:53,626 INFO pulse.collect: m2 classified 1 items
+2026-10-10 02:08:53,631 INFO pulse.collect: run 11 finished ok=True new=1 errors=0
+2026-10-10 02:18:41,284 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 02:18:44,114 INFO pulse.collect: run 12 finished ok=True new=0 errors=0
+2026-10-10 02:28:38,770 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 02:28:41,565 INFO pulse.collect: run 13 finished ok=True new=0 errors=0
+2026-10-10 02:38:39,662 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 02:38:42,546 INFO pulse.collect: run 14 finished ok=True new=0 errors=0
+2026-10-10 02:48:41,440 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 02:48:44,253 INFO pulse.collect: run 15 finished ok=True new=0 errors=0
+2026-10-10 02:58:39,031 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 02:58:41,824 INFO pulse.collect: run 16 finished ok=True new=0 errors=0
+2026-10-10 03:08:39,259 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 03:08:42,065 INFO pulse.collect: run 17 finished ok=True new=0 errors=0
+2026-10-10 03:18:43,447 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 03:18:46,269 INFO pulse.collect: run 18 finished ok=True new=0 errors=0
+2026-10-10 03:28:39,893 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-10 03:28:42,689 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 03:28:43,422 INFO pulse.collect: m1 classified 1 items
+2026-10-10 03:28:43,422 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 03:28:45,194 INFO pulse.collect: m2 classified 1 items
+2026-10-10 03:28:45,195 INFO pulse.collect: run 19 finished ok=True new=1 errors=0
+2026-10-10 03:38:39,340 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 03:38:42,140 INFO pulse.collect: run 20 finished ok=True new=0 errors=0
+2026-10-10 03:48:39,662 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 03:48:42,544 INFO pulse.collect: run 21 finished ok=True new=0 errors=0
+2026-10-10 03:58:38,985 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'no_rail_context': 1}
+2026-10-10 03:58:41,790 INFO pulse.collect: run 22 finished ok=True new=0 errors=0
+2026-10-10 04:08:38,989 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 04:08:41,789 INFO pulse.collect: run 23 finished ok=True new=0 errors=0
+2026-10-10 04:18:39,243 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 04:18:42,048 INFO pulse.collect: run 24 finished ok=True new=0 errors=0
+2026-10-10 04:28:38,554 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 04:28:41,355 INFO pulse.collect: run 25 finished ok=True new=0 errors=0
+2026-10-10 04:38:38,575 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 04:38:41,386 INFO pulse.collect: run 26 finished ok=True new=0 errors=0
+2026-10-10 04:48:39,107 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-10 04:48:42,003 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 04:48:42,748 INFO pulse.collect: m1 classified 1 items
+2026-10-10 04:48:42,748 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 04:48:44,499 INFO pulse.collect: m2 classified 1 items
+2026-10-10 04:48:44,501 INFO pulse.collect: run 27 finished ok=True new=1 errors=0
+2026-10-10 04:58:39,491 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 04:58:42,361 INFO pulse.collect: run 28 finished ok=True new=0 errors=0
+2026-10-10 05:08:39,680 INFO pulse.collect: fetched=3 kept=1 new=1 dropped={'no_rail_context': 1, 
+2026-10-10 05:08:42,477 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 05:08:43,199 INFO pulse.collect: m1 classified 1 items
+2026-10-10 05:08:43,200 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 05:08:44,960 INFO pulse.collect: m2 classified 1 items
+2026-10-10 05:08:44,962 INFO pulse.collect: run 29 finished ok=True new=1 errors=0
+2026-10-10 05:18:39,178 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={}
+2026-10-10 05:18:41,985 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 05:18:42,742 INFO pulse.collect: m1 classified 1 items
+2026-10-10 05:18:42,742 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 05:18:44,559 INFO pulse.collect: m2 classified 1 items
+2026-10-10 05:18:44,561 INFO pulse.collect: run 30 finished ok=True new=1 errors=0
+2026-10-10 05:28:39,050 INFO pulse.collect: fetched=3 kept=1 new=1 dropped={'no_rail_context': 1}
+2026-10-10 05:28:41,849 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 05:28:42,642 INFO pulse.collect: m1 classified 1 items
+2026-10-10 05:28:42,642 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 05:28:44,411 INFO pulse.collect: m2 classified 1 items
+2026-10-10 05:28:44,413 INFO pulse.collect: run 31 finished ok=True new=1 errors=0
+2026-10-10 05:38:38,902 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-10 05:38:41,694 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 05:38:42,432 INFO pulse.collect: m1 classified 1 items
+2026-10-10 05:38:42,432 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 05:38:44,192 INFO pulse.collect: m2 classified 1 items
+2026-10-10 05:38:44,194 INFO pulse.collect: run 32 finished ok=True new=1 errors=0
+2026-10-10 05:48:38,534 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 05:48:41,363 INFO pulse.collect: run 33 finished ok=True new=0 errors=0
+2026-10-10 05:58:38,309 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 05:58:41,157 INFO pulse.collect: run 34 finished ok=True new=0 errors=0
+2026-10-10 06:08:40,057 INFO pulse.collect: fetched=3 kept=0 new=0 dropped={'empty': 1, 
+2026-10-10 06:08:43,008 INFO pulse.collect: run 35 finished ok=True new=0 errors=0
+2026-10-10 06:18:38,993 INFO pulse.collect: fetched=2 kept=2 new=2 dropped={}
+2026-10-10 06:18:41,802 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 06:18:42,612 INFO pulse.collect: m1 classified 2 items
+2026-10-10 06:18:42,613 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 06:18:44,439 INFO pulse.collect: m2 classified 2 items
+2026-10-10 06:18:44,441 INFO pulse.collect: run 36 finished ok=True new=2 errors=0
+2026-10-10 06:28:38,402 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'bot': 1}
+2026-10-10 06:28:41,242 INFO pulse.collect: run 37 finished ok=True new=0 errors=0
+2026-10-10 06:38:39,644 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={'duplicate': 1}
+2026-10-10 06:38:42,427 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 06:38:43,169 INFO pulse.collect: m1 classified 1 items
+2026-10-10 06:38:43,169 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 06:38:44,906 INFO pulse.collect: m2 classified 1 items
+2026-10-10 06:38:44,908 INFO pulse.collect: run 38 finished ok=True new=1 errors=0
+2026-10-10 06:48:39,033 INFO pulse.collect: fetched=2 kept=2 new=2 dropped={}
+2026-10-10 06:48:41,830 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 06:48:42,693 INFO pulse.collect: m1 classified 2 items
+2026-10-10 06:48:42,694 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 06:48:44,484 INFO pulse.collect: m2 classified 2 items
+2026-10-10 06:48:44,485 INFO pulse.collect: run 39 finished ok=True new=2 errors=0
+2026-10-10 06:58:38,786 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 06:58:41,625 INFO pulse.collect: run 40 finished ok=True new=0 errors=0
+2026-10-10 07:08:38,855 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'bot': 1}
+2026-10-10 07:08:41,645 INFO pulse.collect: run 41 finished ok=True new=0 errors=0
+2026-10-10 07:18:38,752 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 07:18:41,628 INFO pulse.collect: run 42 finished ok=True new=0 errors=0
+2026-10-10 07:28:39,397 INFO pulse.collect: fetched=4 kept=2 new=2 dropped={'bot': 1}
+2026-10-10 07:28:42,203 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 07:28:43,077 INFO pulse.collect: m1 classified 2 items
+2026-10-10 07:28:43,078 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 07:28:44,925 INFO pulse.collect: m2 classified 2 items
+2026-10-10 07:28:44,926 INFO pulse.collect: run 43 finished ok=True new=2 errors=0
+2026-10-10 07:38:39,125 INFO pulse.collect: fetched=4 kept=1 new=1 dropped={'no_rail_context': 2, 
+2026-10-10 07:38:41,917 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 07:38:42,662 INFO pulse.collect: m1 classified 1 items
+2026-10-10 07:38:42,662 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 07:38:44,425 INFO pulse.collect: m2 classified 1 items
+2026-10-10 07:38:44,427 INFO pulse.collect: run 44 finished ok=True new=1 errors=0
+2026-10-10 07:48:38,909 INFO pulse.collect: fetched=8 kept=1 new=1 dropped={'too_short': 1, 'bot': 1, 
+2026-10-10 07:48:41,717 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 07:48:42,496 INFO pulse.collect: m1 classified 1 items
+2026-10-10 07:48:42,496 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 07:48:44,268 INFO pulse.collect: m2 classified 1 items
+2026-10-10 07:48:44,270 INFO pulse.collect: run 45 finished ok=True new=1 errors=0
+2026-10-10 07:58:41,725 WARNING pulse.collect: query 'fΣllt aus': InvokeTimeoutError: 
+2026-10-10 07:58:47,103 WARNING pulse.collect: query 'ⁿberfⁿllt': InvokeTimeoutError: 
+2026-10-10 07:58:48,226 INFO pulse.collect: fetched=2 kept=2 new=2 dropped={}
+2026-10-10 07:58:51,048 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 07:58:51,837 INFO pulse.collect: m1 classified 2 items
+2026-10-10 07:58:51,837 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 07:58:53,630 INFO pulse.collect: m2 classified 2 items
+2026-10-10 07:58:53,632 INFO pulse.collect: run 46 finished ok=True new=2 errors=2
+2026-10-10 08:08:38,964 INFO pulse.collect: fetched=5 kept=3 new=3 dropped={'bot': 2}
+2026-10-10 08:08:41,764 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 08:08:42,588 INFO pulse.collect: m1 classified 3 items
+2026-10-10 08:08:42,588 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 08:08:44,396 INFO pulse.collect: m2 classified 3 items
+2026-10-10 08:08:44,398 INFO pulse.collect: run 47 finished ok=True new=3 errors=0
+2026-10-10 08:18:40,802 INFO pulse.collect: fetched=6 kept=2 new=2 dropped={'no_rail_context': 3, 
+2026-10-10 08:18:43,670 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 08:18:44,431 INFO pulse.collect: m1 classified 2 items
+2026-10-10 08:18:44,431 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 08:18:46,229 INFO pulse.collect: m2 classified 2 items
+2026-10-10 08:18:46,231 INFO pulse.collect: run 48 finished ok=True new=2 errors=0
+2026-10-10 08:28:39,036 INFO pulse.collect: fetched=3 kept=1 new=1 dropped={'no_rail_context': 1}
+2026-10-10 08:28:41,899 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 08:28:42,624 INFO pulse.collect: m1 classified 1 items
+2026-10-10 08:28:42,625 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 08:28:44,356 INFO pulse.collect: m2 classified 1 items
+2026-10-10 08:28:44,358 INFO pulse.collect: run 49 finished ok=True new=1 errors=0
+2026-10-10 08:38:39,137 INFO pulse.collect: fetched=5 kept=3 new=3 dropped={'empty': 1, 
+2026-10-10 08:38:41,931 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 08:38:42,732 INFO pulse.collect: m1 classified 3 items
+2026-10-10 08:38:42,732 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 08:38:44,515 INFO pulse.collect: m2 classified 3 items
+2026-10-10 08:38:44,517 INFO pulse.collect: run 50 finished ok=True new=3 errors=0
+2026-10-10 08:48:39,100 INFO pulse.collect: fetched=3 kept=0 new=0 dropped={'empty': 1, 'bot': 1, 
+2026-10-10 08:48:41,925 INFO pulse.collect: run 51 finished ok=True new=0 errors=0
+2026-10-10 08:58:39,035 INFO pulse.collect: fetched=7 kept=2 new=2 dropped={'no_rail_context': 1, 
+2026-10-10 08:58:41,836 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 08:58:42,633 INFO pulse.collect: m1 classified 2 items
+2026-10-10 08:58:42,634 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 08:58:44,425 INFO pulse.collect: m2 classified 2 items
+2026-10-10 08:58:44,427 INFO pulse.collect: run 52 finished ok=True new=2 errors=0
+2026-10-10 09:08:39,770 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={'no_rail_context': 1}
+2026-10-10 09:08:42,572 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 09:08:43,322 INFO pulse.collect: m1 classified 1 items
+2026-10-10 09:08:43,322 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 09:08:45,071 INFO pulse.collect: m2 classified 1 items
+2026-10-10 09:08:45,073 INFO pulse.collect: run 53 finished ok=True new=1 errors=0
+2026-10-10 09:18:39,365 INFO pulse.collect: fetched=3 kept=1 new=1 dropped={'bot': 2}
+2026-10-10 09:18:42,175 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 09:18:42,918 INFO pulse.collect: m1 classified 1 items
+2026-10-10 09:18:42,918 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 09:18:44,688 INFO pulse.collect: m2 classified 1 items
+2026-10-10 09:18:44,690 INFO pulse.collect: run 54 finished ok=True new=1 errors=0
+2026-10-10 09:28:38,873 INFO pulse.collect: fetched=5 kept=2 new=2 dropped={'bot': 1, 'empty': 1, 
+2026-10-10 09:28:41,746 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 09:28:42,535 INFO pulse.collect: m1 classified 2 items
+2026-10-10 09:28:42,535 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 09:28:44,311 INFO pulse.collect: m2 classified 2 items
+2026-10-10 09:28:44,313 INFO pulse.collect: run 55 finished ok=True new=2 errors=0
+2026-10-10 09:38:38,846 INFO pulse.collect: fetched=4 kept=3 new=3 dropped={'no_rail_context': 1}
+2026-10-10 09:38:41,633 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 09:38:42,436 INFO pulse.collect: m1 classified 3 items
+2026-10-10 09:38:42,436 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 09:38:44,232 INFO pulse.collect: m2 classified 3 items
+2026-10-10 09:38:44,234 INFO pulse.collect: run 56 finished ok=True new=3 errors=0
+2026-10-10 09:48:38,658 INFO pulse.collect: fetched=3 kept=3 new=3 dropped={}
+2026-10-10 09:48:41,533 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 09:48:42,389 INFO pulse.collect: m1 classified 3 items
+2026-10-10 09:48:42,389 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 09:48:44,246 INFO pulse.collect: m2 classified 3 items
+2026-10-10 09:48:44,248 INFO pulse.collect: run 57 finished ok=True new=3 errors=0
+2026-10-10 09:58:39,005 INFO pulse.collect: fetched=5 kept=2 new=2 dropped={'no_rail_context': 2, 
+2026-10-10 09:58:41,818 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 09:58:42,574 INFO pulse.collect: m1 classified 2 items
+2026-10-10 09:58:42,574 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 09:58:44,409 INFO pulse.collect: m2 classified 2 items
+2026-10-10 09:58:44,411 INFO pulse.collect: run 58 finished ok=True new=2 errors=0
+2026-10-10 10:08:39,664 INFO pulse.collect: fetched=8 kept=4 new=4 dropped={'too_short': 1, 
+2026-10-10 10:08:42,444 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 10:08:43,430 INFO pulse.collect: m1 classified 4 items
+2026-10-10 10:08:43,431 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 10:08:45,334 INFO pulse.collect: m2 classified 4 items
+2026-10-10 10:08:45,336 INFO pulse.collect: run 59 finished ok=True new=4 errors=0
+2026-10-10 10:18:38,587 INFO pulse.collect: fetched=2 kept=0 new=0 dropped={'no_rail_context': 2}
+2026-10-10 10:18:41,391 INFO pulse.collect: run 60 finished ok=True new=0 errors=0
+2026-10-10 10:28:39,106 INFO pulse.collect: fetched=6 kept=4 new=4 dropped={'no_rail_context': 2}
+2026-10-10 10:28:41,962 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 10:28:42,754 INFO pulse.collect: m1 classified 4 items
+2026-10-10 10:28:42,754 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 10:28:44,621 INFO pulse.collect: m2 classified 4 items
+2026-10-10 10:28:44,622 INFO pulse.collect: run 61 finished ok=True new=4 errors=0
+2026-10-10 10:38:38,924 INFO pulse.collect: fetched=7 kept=1 new=1 dropped={'too_short': 1, 'bot': 2, 
+2026-10-10 10:38:41,719 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 10:38:42,468 INFO pulse.collect: m1 classified 1 items
+2026-10-10 10:38:42,468 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 10:38:44,282 INFO pulse.collect: m2 classified 1 items
+2026-10-10 10:38:44,284 INFO pulse.collect: run 62 finished ok=True new=1 errors=0
+2026-10-10 10:48:39,219 INFO pulse.collect: fetched=5 kept=3 new=3 dropped={'no_rail_context': 2}
+2026-10-10 10:48:42,080 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 10:48:42,875 INFO pulse.collect: m1 classified 3 items
+2026-10-10 10:48:42,875 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 10:48:44,695 INFO pulse.collect: m2 classified 3 items
+2026-10-10 10:48:44,697 INFO pulse.collect: run 63 finished ok=True new=3 errors=0
+2026-10-10 10:58:38,863 INFO pulse.collect: fetched=3 kept=1 new=1 dropped={'no_rail_context': 2}
+2026-10-10 10:58:41,666 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 10:58:42,410 INFO pulse.collect: m1 classified 1 items
+2026-10-10 10:58:42,411 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 10:58:44,156 INFO pulse.collect: m2 classified 1 items
+2026-10-10 10:58:44,158 INFO pulse.collect: run 64 finished ok=True new=1 errors=0
+2026-10-10 11:08:38,874 INFO pulse.collect: fetched=8 kept=6 new=6 dropped={'bot': 1, 'too_short': 1}
+2026-10-10 11:08:41,696 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 11:08:42,579 INFO pulse.collect: m1 classified 6 items
+2026-10-10 11:08:42,580 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 11:08:44,686 INFO pulse.collect: m2 classified 6 items
+2026-10-10 11:08:44,687 INFO pulse.collect: run 65 finished ok=True new=6 errors=0
+2026-10-10 11:18:38,931 INFO pulse.collect: fetched=5 kept=5 new=5 dropped={}
+2026-10-10 11:18:41,725 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 11:18:42,627 INFO pulse.collect: m1 classified 5 items
+2026-10-10 11:18:42,627 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 11:18:44,585 INFO pulse.collect: m2 classified 5 items
+2026-10-10 11:18:44,586 INFO pulse.collect: run 66 finished ok=True new=5 errors=0
+2026-10-10 11:28:39,523 INFO pulse.collect: fetched=3 kept=3 new=3 dropped={}
+2026-10-10 11:28:42,364 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 11:28:43,231 INFO pulse.collect: m1 classified 3 items
+2026-10-10 11:28:43,231 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 11:28:45,084 INFO pulse.collect: m2 classified 3 items
+2026-10-10 11:28:45,086 INFO pulse.collect: run 67 finished ok=True new=3 errors=0
+2026-10-10 11:38:39,149 INFO pulse.collect: fetched=9 kept=6 new=6 dropped={'empty': 1, 'too_short': 1}
+2026-10-10 11:38:41,963 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 11:38:42,871 INFO pulse.collect: m1 classified 6 items
+2026-10-10 11:38:42,872 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 11:38:44,793 INFO pulse.collect: m2 classified 6 items
+2026-10-10 11:38:44,795 INFO pulse.collect: run 68 finished ok=True new=6 errors=0
+2026-10-10 11:48:39,392 INFO pulse.collect: fetched=5 kept=3 new=3 dropped={'too_short': 1, 
+2026-10-10 11:48:42,252 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 11:48:43,086 INFO pulse.collect: m1 classified 3 items
+2026-10-10 11:48:43,086 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 11:48:45,022 INFO pulse.collect: m2 classified 3 items
+2026-10-10 11:48:45,023 INFO pulse.collect: run 69 finished ok=True new=3 errors=0
+2026-10-10 11:58:43,657 INFO pulse.collect: fetched=3 kept=2 new=2 dropped={}
+2026-10-10 11:59:05,177 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 11:59:06,414 INFO pulse.collect: m1 classified 2 items
+2026-10-10 11:59:06,414 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 11:59:08,276 INFO pulse.collect: m2 classified 2 items
+2026-10-10 11:59:08,278 INFO pulse.collect: run 70 finished ok=True new=2 errors=0
+2026-10-10 12:08:39,509 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'bot': 1}
+2026-10-10 12:08:42,312 INFO pulse.collect: run 71 finished ok=True new=0 errors=0
+2026-10-10 12:18:39,186 INFO pulse.collect: fetched=6 kept=1 new=1 dropped={'too_short': 2, 
+2026-10-10 12:18:42,005 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 12:18:42,763 INFO pulse.collect: m1 classified 1 items
+2026-10-10 12:18:42,764 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 12:18:44,561 INFO pulse.collect: m2 classified 1 items
+2026-10-10 12:18:44,563 INFO pulse.collect: run 72 finished ok=True new=1 errors=0
+2026-10-10 12:28:38,775 INFO pulse.collect: fetched=7 kept=4 new=4 dropped={'no_rail_context': 2}
+2026-10-10 12:28:41,574 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 12:28:42,378 INFO pulse.collect: m1 classified 4 items
+2026-10-10 12:28:42,378 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 12:28:44,230 INFO pulse.collect: m2 classified 4 items
+2026-10-10 12:28:44,232 INFO pulse.collect: run 73 finished ok=True new=4 errors=0
+2026-10-10 12:38:39,240 INFO pulse.collect: fetched=4 kept=4 new=4 dropped={}
+2026-10-10 12:38:42,100 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 12:38:42,962 INFO pulse.collect: m1 classified 4 items
+2026-10-10 12:38:42,962 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 12:38:44,852 INFO pulse.collect: m2 classified 4 items
+2026-10-10 12:38:44,854 INFO pulse.collect: run 74 finished ok=True new=4 errors=0
+2026-10-10 12:48:38,945 INFO pulse.collect: fetched=6 kept=2 new=2 dropped={'too_short': 1, 
+2026-10-10 12:48:41,798 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 12:48:42,589 INFO pulse.collect: m1 classified 2 items
+2026-10-10 12:48:42,589 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 12:48:44,384 INFO pulse.collect: m2 classified 2 items
+2026-10-10 12:48:44,387 INFO pulse.collect: run 75 finished ok=True new=2 errors=0
+2026-10-10 12:58:39,242 INFO pulse.collect: fetched=4 kept=2 new=2 dropped={'bot': 1}
+2026-10-10 12:58:42,027 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 12:58:42,839 INFO pulse.collect: m1 classified 2 items
+2026-10-10 12:58:42,840 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 12:58:44,770 INFO pulse.collect: m2 classified 2 items
+2026-10-10 12:58:44,772 INFO pulse.collect: run 76 finished ok=True new=2 errors=0
+2026-10-10 13:08:39,553 INFO pulse.collect: fetched=4 kept=2 new=2 dropped={'no_rail_context': 1, 
+2026-10-10 13:08:42,349 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 13:08:43,106 INFO pulse.collect: m1 classified 2 items
+2026-10-10 13:08:43,106 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 13:08:45,048 INFO pulse.collect: m2 classified 2 items
+2026-10-10 13:08:45,050 INFO pulse.collect: run 77 finished ok=True new=2 errors=0
+2026-10-10 13:18:38,960 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'empty': 1}
+2026-10-10 13:18:41,769 INFO pulse.collect: run 78 finished ok=True new=0 errors=0
+2026-10-10 13:28:40,255 INFO pulse.collect: fetched=4 kept=3 new=3 dropped={'no_rail_context': 1}
+2026-10-10 13:28:43,097 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 13:28:43,948 INFO pulse.collect: m1 classified 3 items
+2026-10-10 13:28:43,948 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 13:28:45,894 INFO pulse.collect: m2 classified 3 items
+2026-10-10 13:28:45,896 INFO pulse.collect: run 79 finished ok=True new=3 errors=0
+2026-10-10 13:38:39,626 INFO pulse.collect: fetched=3 kept=1 new=1 dropped={'empty': 1}
+2026-10-10 13:38:42,495 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 13:38:43,215 INFO pulse.collect: m1 classified 1 items
+2026-10-10 13:38:43,215 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 13:38:44,977 INFO pulse.collect: m2 classified 1 items
+2026-10-10 13:38:44,979 INFO pulse.collect: run 80 finished ok=True new=1 errors=0
+2026-10-10 13:48:38,184 INFO pulse.collect: fetched=7 kept=3 new=3 dropped={'no_rail_context': 3}
+2026-10-10 13:48:40,993 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 13:48:41,858 INFO pulse.collect: m1 classified 3 items
+2026-10-10 13:48:41,858 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 13:48:43,722 INFO pulse.collect: m2 classified 3 items
+2026-10-10 13:48:43,723 INFO pulse.collect: run 81 finished ok=True new=3 errors=0
+2026-10-10 13:58:38,513 INFO pulse.collect: fetched=2 kept=2 new=2 dropped={}
+2026-10-10 13:58:41,332 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 13:58:42,127 INFO pulse.collect: m1 classified 2 items
+2026-10-10 13:58:42,127 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 13:58:43,943 INFO pulse.collect: m2 classified 2 items
+2026-10-10 13:58:43,945 INFO pulse.collect: run 82 finished ok=True new=2 errors=0
+2026-10-10 14:08:38,812 INFO pulse.collect: fetched=5 kept=5 new=5 dropped={}
+2026-10-10 14:08:41,614 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 14:08:42,488 INFO pulse.collect: m1 classified 5 items
+2026-10-10 14:08:42,488 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 14:08:44,376 INFO pulse.collect: m2 classified 5 items
+2026-10-10 14:08:44,378 INFO pulse.collect: run 83 finished ok=True new=5 errors=0
+2026-10-10 14:18:38,488 INFO pulse.collect: fetched=2 kept=2 new=2 dropped={}
+2026-10-10 14:18:41,281 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 14:18:42,051 INFO pulse.collect: m1 classified 2 items
+2026-10-10 14:18:42,052 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 14:18:43,830 INFO pulse.collect: m2 classified 2 items
+2026-10-10 14:18:43,832 INFO pulse.collect: run 84 finished ok=True new=2 errors=0
+2026-10-10 14:28:38,929 INFO pulse.collect: fetched=3 kept=2 new=2 dropped={'no_rail_context': 1}
+2026-10-10 14:28:41,736 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 14:28:42,515 INFO pulse.collect: m1 classified 2 items
+2026-10-10 14:28:42,516 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 14:28:44,295 INFO pulse.collect: m2 classified 2 items
+2026-10-10 14:28:44,296 INFO pulse.collect: run 85 finished ok=True new=2 errors=0
+2026-10-10 14:38:46,648 WARNING pulse.collect: query 'Oberleitung': InvokeTimeoutError: 
+2026-10-10 14:38:51,422 INFO pulse.collect: fetched=3 kept=2 new=2 dropped={'no_rail_context': 1}
+2026-10-10 14:38:54,341 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 14:38:55,079 INFO pulse.collect: m1 classified 2 items
+2026-10-10 14:38:55,079 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 14:38:56,838 INFO pulse.collect: m2 classified 2 items
+2026-10-10 14:38:56,839 INFO pulse.collect: run 86 finished ok=True new=2 errors=1
+2026-10-10 14:48:41,107 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-10 14:48:43,943 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 14:48:44,710 INFO pulse.collect: m1 classified 1 items
+2026-10-10 14:48:44,710 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 14:48:46,573 INFO pulse.collect: m2 classified 1 items
+2026-10-10 14:48:46,575 INFO pulse.collect: run 87 finished ok=True new=1 errors=0
+2026-10-10 14:58:44,214 INFO pulse.collect: fetched=3 kept=2 new=2 dropped={'no_rail_context': 1}
+2026-10-10 14:58:47,052 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 14:58:48,011 INFO pulse.collect: m1 classified 2 items
+2026-10-10 14:58:48,011 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 14:58:49,913 INFO pulse.collect: m2 classified 2 items
+2026-10-10 14:58:49,915 INFO pulse.collect: run 88 finished ok=True new=2 errors=0
+2026-10-10 15:08:43,465 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'no_rail_context': 1}
+2026-10-10 15:08:46,318 INFO pulse.collect: run 89 finished ok=True new=0 errors=0
+2026-10-10 15:18:47,628 INFO pulse.collect: fetched=5 kept=3 new=3 dropped={'no_rail_context': 1}
+2026-10-10 15:18:50,497 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 15:18:51,271 INFO pulse.collect: m1 classified 3 items
+2026-10-10 15:18:51,271 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 15:18:53,081 INFO pulse.collect: m2 classified 3 items
+2026-10-10 15:18:53,083 INFO pulse.collect: run 90 finished ok=True new=3 errors=0
+2026-10-10 15:28:43,681 INFO pulse.collect: fetched=2 kept=2 new=2 dropped={}
+2026-10-10 15:28:46,527 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 15:28:47,317 INFO pulse.collect: m1 classified 2 items
+2026-10-10 15:28:47,317 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 15:28:49,166 INFO pulse.collect: m2 classified 2 items
+2026-10-10 15:28:49,168 INFO pulse.collect: run 91 finished ok=True new=2 errors=0
+2026-10-10 15:38:37,923 INFO pulse.collect: fetched=7 kept=5 new=5 dropped={'duplicate': 1}
+2026-10-10 15:38:40,757 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 15:38:41,667 INFO pulse.collect: m1 classified 5 items
+2026-10-10 15:38:41,668 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 15:38:43,595 INFO pulse.collect: m2 classified 5 items
+2026-10-10 15:38:43,596 INFO pulse.collect: run 92 finished ok=True new=5 errors=0
+2026-10-10 15:48:38,011 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-10 15:48:40,880 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 15:48:41,714 INFO pulse.collect: m1 classified 1 items
+2026-10-10 15:48:41,714 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 15:48:43,440 INFO pulse.collect: m2 classified 1 items
+2026-10-10 15:48:43,442 INFO pulse.collect: run 93 finished ok=True new=1 errors=0
+2026-10-10 15:58:38,588 INFO pulse.collect: fetched=5 kept=4 new=4 dropped={'no_rail_context': 1}
+2026-10-10 15:58:41,405 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 15:58:42,279 INFO pulse.collect: m1 classified 4 items
+2026-10-10 15:58:42,279 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 15:58:44,144 INFO pulse.collect: m2 classified 4 items
+2026-10-10 15:58:44,146 INFO pulse.collect: run 94 finished ok=True new=4 errors=0
+2026-10-10 16:08:38,423 INFO pulse.collect: fetched=5 kept=3 new=3 dropped={'bot': 1, 
+2026-10-10 16:08:41,242 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 16:08:42,051 INFO pulse.collect: m1 classified 3 items
+2026-10-10 16:08:42,052 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 16:08:43,884 INFO pulse.collect: m2 classified 3 items
+2026-10-10 16:08:43,886 INFO pulse.collect: run 95 finished ok=True new=3 errors=0
+2026-10-10 16:18:38,119 INFO pulse.collect: fetched=3 kept=2 new=2 dropped={'bot': 1}
+2026-10-10 16:18:40,933 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 16:18:41,776 INFO pulse.collect: m1 classified 2 items
+2026-10-10 16:18:41,776 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 16:18:43,629 INFO pulse.collect: m2 classified 2 items
+2026-10-10 16:18:43,631 INFO pulse.collect: run 96 finished ok=True new=2 errors=0
+2026-10-10 16:28:38,499 INFO pulse.collect: fetched=2 kept=2 new=2 dropped={}
+2026-10-10 16:28:41,362 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 16:28:42,124 INFO pulse.collect: m1 classified 2 items
+2026-10-10 16:28:42,124 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 16:28:43,900 INFO pulse.collect: m2 classified 2 items
+2026-10-10 16:28:43,902 INFO pulse.collect: run 97 finished ok=True new=2 errors=0
+2026-10-10 16:38:38,821 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-10 16:38:41,650 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 16:38:42,402 INFO pulse.collect: m1 classified 1 items
+2026-10-10 16:38:42,402 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 16:38:44,156 INFO pulse.collect: m2 classified 1 items
+2026-10-10 16:38:44,158 INFO pulse.collect: run 98 finished ok=True new=1 errors=0
+2026-10-10 16:48:39,221 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'bot': 1}
+2026-10-10 16:48:42,132 INFO pulse.collect: run 99 finished ok=True new=0 errors=0
+2026-10-10 16:58:39,098 INFO pulse.collect: fetched=3 kept=2 new=2 dropped={'empty': 1}
+2026-10-10 16:58:41,933 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 16:58:42,760 INFO pulse.collect: m1 classified 2 items
+2026-10-10 16:58:42,761 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 16:58:44,575 INFO pulse.collect: m2 classified 2 items
+2026-10-10 16:58:44,576 INFO pulse.collect: run 100 finished ok=True new=2 errors=0
+2026-10-10 17:08:38,691 INFO pulse.collect: fetched=3 kept=2 new=2 dropped={}
+2026-10-10 17:08:41,545 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 17:08:42,360 INFO pulse.collect: m1 classified 2 items
+2026-10-10 17:08:42,360 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 17:08:44,138 INFO pulse.collect: m2 classified 2 items
+2026-10-10 17:08:44,139 INFO pulse.collect: run 101 finished ok=True new=2 errors=0
+2026-10-10 17:18:38,870 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={'no_rail_context': 1}
+2026-10-10 17:18:41,696 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 17:18:42,658 INFO pulse.collect: m1 classified 1 items
+2026-10-10 17:18:42,658 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 17:18:44,569 INFO pulse.collect: m2 classified 1 items
+2026-10-10 17:18:44,571 INFO pulse.collect: run 102 finished ok=True new=1 errors=0
+2026-10-10 17:28:39,555 INFO pulse.collect: fetched=7 kept=4 new=4 dropped={'bot': 1, 
+2026-10-10 17:28:42,406 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 17:28:43,291 INFO pulse.collect: m1 classified 4 items
+2026-10-10 17:28:43,291 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 17:28:45,141 INFO pulse.collect: m2 classified 4 items
+2026-10-10 17:28:45,143 INFO pulse.collect: run 103 finished ok=True new=4 errors=0
+2026-10-10 17:38:38,396 INFO pulse.collect: fetched=5 kept=3 new=3 dropped={'no_rail_context': 2}
+2026-10-10 17:38:41,216 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 17:38:42,028 INFO pulse.collect: m1 classified 3 items
+2026-10-10 17:38:42,029 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 17:38:43,844 INFO pulse.collect: m2 classified 3 items
+2026-10-10 17:38:43,845 INFO pulse.collect: run 104 finished ok=True new=3 errors=0
+2026-10-10 17:48:38,380 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={'no_rail_context': 1}
+2026-10-10 17:48:41,251 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 17:48:42,057 INFO pulse.collect: m1 classified 1 items
+2026-10-10 17:48:42,057 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 17:48:43,834 INFO pulse.collect: m2 classified 1 items
+2026-10-10 17:48:43,836 INFO pulse.collect: run 105 finished ok=True new=1 errors=0
+2026-10-10 17:58:38,232 INFO pulse.collect: fetched=6 kept=4 new=4 dropped={'too_short': 1, 
+2026-10-10 17:58:41,119 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 17:58:41,992 INFO pulse.collect: m1 classified 4 items
+2026-10-10 17:58:41,992 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 17:58:43,900 INFO pulse.collect: m2 classified 4 items
+2026-10-10 17:58:43,902 INFO pulse.collect: run 106 finished ok=True new=4 errors=0
+2026-10-10 18:08:38,601 INFO pulse.collect: fetched=4 kept=3 new=3 dropped={}
+2026-10-10 18:08:41,420 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 18:08:42,302 INFO pulse.collect: m1 classified 3 items
+2026-10-10 18:08:42,302 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 18:08:44,178 INFO pulse.collect: m2 classified 3 items
+2026-10-10 18:08:44,180 INFO pulse.collect: run 107 finished ok=True new=3 errors=0
+2026-10-10 18:18:38,755 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-10 18:18:41,596 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 18:18:42,420 INFO pulse.collect: m1 classified 1 items
+2026-10-10 18:18:42,420 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 18:18:44,214 INFO pulse.collect: m2 classified 1 items
+2026-10-10 18:18:44,215 INFO pulse.collect: run 108 finished ok=True new=1 errors=0
+2026-10-10 18:28:38,850 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 18:28:41,691 INFO pulse.collect: run 109 finished ok=True new=0 errors=0
+2026-10-10 18:38:38,950 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-10 18:38:41,810 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 18:38:42,600 INFO pulse.collect: m1 classified 1 items
+2026-10-10 18:38:42,600 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 18:38:44,573 INFO pulse.collect: m2 classified 1 items
+2026-10-10 18:38:44,575 INFO pulse.collect: run 110 finished ok=True new=1 errors=0
+2026-10-10 18:48:38,199 INFO pulse.collect: fetched=5 kept=4 new=4 dropped={'no_rail_context': 1}
+2026-10-10 18:48:41,018 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 18:48:41,868 INFO pulse.collect: m1 classified 4 items
+2026-10-10 18:48:41,868 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 18:48:43,751 INFO pulse.collect: m2 classified 4 items
+2026-10-10 18:48:43,752 INFO pulse.collect: run 111 finished ok=True new=4 errors=0
+2026-10-10 18:58:39,413 INFO pulse.collect: fetched=5 kept=4 new=4 dropped={'too_short': 1}
+2026-10-10 18:58:42,307 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 18:58:43,197 INFO pulse.collect: m1 classified 4 items
+2026-10-10 18:58:43,198 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 18:58:45,174 INFO pulse.collect: m2 classified 4 items
+2026-10-10 18:58:45,176 INFO pulse.collect: run 112 finished ok=True new=4 errors=0
+2026-10-10 19:08:38,478 INFO pulse.collect: fetched=5 kept=4 new=4 dropped={'no_rail_context': 1}
+2026-10-10 19:08:41,289 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 19:08:42,115 INFO pulse.collect: m1 classified 4 items
+2026-10-10 19:08:42,115 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 19:08:44,002 INFO pulse.collect: m2 classified 4 items
+2026-10-10 19:08:44,004 INFO pulse.collect: run 113 finished ok=True new=4 errors=0
+2026-10-10 19:18:38,401 INFO pulse.collect: fetched=5 kept=3 new=3 dropped={'bot': 2}
+2026-10-10 19:18:41,222 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 19:18:42,045 INFO pulse.collect: m1 classified 3 items
+2026-10-10 19:18:42,046 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 19:18:43,916 INFO pulse.collect: m2 classified 3 items
+2026-10-10 19:18:43,917 INFO pulse.collect: run 114 finished ok=True new=3 errors=0
+2026-10-10 19:28:39,208 INFO pulse.collect: fetched=3 kept=2 new=2 dropped={'empty': 1}
+2026-10-10 19:28:42,021 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 19:28:42,802 INFO pulse.collect: m1 classified 2 items
+2026-10-10 19:28:42,803 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 19:28:44,715 INFO pulse.collect: m2 classified 2 items
+2026-10-10 19:28:44,716 INFO pulse.collect: run 115 finished ok=True new=2 errors=0
+2026-10-10 19:38:38,167 INFO pulse.collect: fetched=7 kept=5 new=5 dropped={'no_rail_context': 1}
+2026-10-10 19:38:40,962 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 19:38:41,825 INFO pulse.collect: m1 classified 5 items
+2026-10-10 19:38:41,825 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 19:38:43,764 INFO pulse.collect: m2 classified 5 items
+2026-10-10 19:38:43,766 INFO pulse.collect: run 116 finished ok=True new=5 errors=0
+2026-10-10 19:48:38,720 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={'no_rail_context': 1}
+2026-10-10 19:48:41,598 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 19:48:42,389 INFO pulse.collect: m1 classified 1 items
+2026-10-10 19:48:42,389 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 19:48:44,240 INFO pulse.collect: m2 classified 1 items
+2026-10-10 19:48:44,242 INFO pulse.collect: run 117 finished ok=True new=1 errors=0
+2026-10-10 19:58:35,992 WARNING pulse.collect: query 'Zugbegleiter': InvokeTimeoutError: 
+2026-10-10 19:58:42,117 WARNING pulse.collect: query 'Klimaanlage Zug': InvokeTimeoutError: 
+2026-10-10 19:58:48,217 WARNING pulse.collect: query 'Deutschlandticket': InvokeTimeoutError: 
+2026-10-10 19:58:53,566 WARNING pulse.collect: query 'S-Bahn': InvokeTimeoutError: 
+2026-10-10 19:58:58,905 WARNING pulse.collect: query 'Regionalbahn': InvokeTimeoutError: 
+2026-10-10 19:59:04,265 WARNING pulse.collect: query 'Regionalexpress': InvokeTimeoutError: 
+2026-10-10 19:59:09,634 WARNING pulse.collect: query 'Bahnsteig': InvokeTimeoutError: 
+2026-10-10 19:59:14,977 WARNING pulse.collect: query 'Bahnfahrt': InvokeTimeoutError: 
+2026-10-10 19:59:20,317 WARNING pulse.collect: query 'Oberleitung': InvokeTimeoutError: 
+2026-10-10 19:59:25,646 WARNING pulse.collect: query 'im Zug': InvokeTimeoutError: 
+2026-10-10 19:59:30,998 WARNING pulse.collect: query 'VerspΣtung': InvokeTimeoutError: 
+2026-10-10 19:59:38,746 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={'bot': 1}
+2026-10-10 19:59:41,738 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 19:59:42,513 INFO pulse.collect: m1 classified 1 items
+2026-10-10 19:59:42,513 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 19:59:44,356 INFO pulse.collect: m2 classified 1 items
+2026-10-10 19:59:44,357 INFO pulse.collect: run 118 finished ok=True new=1 errors=11
+2026-10-10 20:08:38,873 INFO pulse.collect: fetched=7 kept=3 new=3 dropped={'too_short': 1, 'bot': 2}
+2026-10-10 20:08:41,744 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 20:08:42,510 INFO pulse.collect: m1 classified 3 items
+2026-10-10 20:08:42,510 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 20:08:44,301 INFO pulse.collect: m2 classified 3 items
+2026-10-10 20:08:44,302 INFO pulse.collect: run 119 finished ok=True new=3 errors=0
+2026-10-10 20:18:39,914 INFO pulse.collect: fetched=3 kept=1 new=1 dropped={'no_rail_context': 2}
+2026-10-10 20:18:42,722 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 20:18:43,482 INFO pulse.collect: m1 classified 1 items
+2026-10-10 20:18:43,482 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 20:18:45,243 INFO pulse.collect: m2 classified 1 items
+2026-10-10 20:18:45,245 INFO pulse.collect: run 120 finished ok=True new=1 errors=0
+2026-10-10 20:28:37,992 INFO pulse.collect: fetched=3 kept=2 new=2 dropped={'no_rail_context': 1}
+2026-10-10 20:28:40,824 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 20:28:41,721 INFO pulse.collect: m1 classified 2 items
+2026-10-10 20:28:41,721 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 20:28:43,545 INFO pulse.collect: m2 classified 2 items
+2026-10-10 20:28:43,547 INFO pulse.collect: run 121 finished ok=True new=2 errors=0
+2026-10-10 20:38:38,865 INFO pulse.collect: fetched=5 kept=2 new=2 dropped={'no_rail_context': 3}
+2026-10-10 20:38:41,746 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 20:38:42,558 INFO pulse.collect: m1 classified 2 items
+2026-10-10 20:38:42,558 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 20:38:44,492 INFO pulse.collect: m2 classified 2 items
+2026-10-10 20:38:44,493 INFO pulse.collect: run 122 finished ok=True new=2 errors=0
+2026-10-10 20:48:38,269 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 20:48:41,134 INFO pulse.collect: run 123 finished ok=True new=0 errors=0
+2026-10-10 20:58:38,475 INFO pulse.collect: fetched=3 kept=2 new=2 dropped={'no_rail_context': 1}
+2026-10-10 20:58:41,390 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 20:58:42,182 INFO pulse.collect: m1 classified 2 items
+2026-10-10 20:58:42,183 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 20:58:44,013 INFO pulse.collect: m2 classified 2 items
+2026-10-10 20:58:44,015 INFO pulse.collect: run 124 finished ok=True new=2 errors=0
+2026-10-10 21:08:39,058 INFO pulse.collect: fetched=4 kept=2 new=2 dropped={'no_rail_context': 1, 
+2026-10-10 21:08:41,874 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 21:08:42,648 INFO pulse.collect: m1 classified 2 items
+2026-10-10 21:08:42,648 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 21:08:44,458 INFO pulse.collect: m2 classified 2 items
+2026-10-10 21:08:44,460 INFO pulse.collect: run 125 finished ok=True new=2 errors=0
+2026-10-10 21:18:38,466 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={'no_rail_context': 1}
+2026-10-10 21:18:41,299 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 21:18:42,070 INFO pulse.collect: m1 classified 1 items
+2026-10-10 21:18:42,070 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 21:18:43,850 INFO pulse.collect: m2 classified 1 items
+2026-10-10 21:18:43,851 INFO pulse.collect: run 126 finished ok=True new=1 errors=0
+2026-10-10 21:28:38,758 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={'no_rail_context': 1}
+2026-10-10 21:28:41,614 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 21:28:42,383 INFO pulse.collect: m1 classified 1 items
+2026-10-10 21:28:42,384 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 21:28:44,151 INFO pulse.collect: m2 classified 1 items
+2026-10-10 21:28:44,152 INFO pulse.collect: run 127 finished ok=True new=1 errors=0
+2026-10-10 21:38:38,598 INFO pulse.collect: fetched=4 kept=2 new=2 dropped={'too_short': 1, 
+2026-10-10 21:38:41,428 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 21:38:42,231 INFO pulse.collect: m1 classified 2 items
+2026-10-10 21:38:42,232 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 21:38:44,074 INFO pulse.collect: m2 classified 2 items
+2026-10-10 21:38:44,075 INFO pulse.collect: run 128 finished ok=True new=2 errors=0
+2026-10-10 21:48:38,313 INFO pulse.collect: fetched=3 kept=2 new=2 dropped={'too_short': 1}
+2026-10-10 21:48:41,129 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 21:48:41,976 INFO pulse.collect: m1 classified 2 items
+2026-10-10 21:48:41,977 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 21:48:43,797 INFO pulse.collect: m2 classified 2 items
+2026-10-10 21:48:43,799 INFO pulse.collect: run 129 finished ok=True new=2 errors=0
+2026-10-10 21:58:38,272 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={'no_rail_context': 1}
+2026-10-10 21:58:41,127 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 21:58:41,946 INFO pulse.collect: m1 classified 1 items
+2026-10-10 21:58:41,946 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 21:58:43,726 INFO pulse.collect: m2 classified 1 items
+2026-10-10 21:58:43,727 INFO pulse.collect: run 130 finished ok=True new=1 errors=0
+2026-10-10 22:08:38,702 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 22:08:41,598 INFO pulse.collect: run 131 finished ok=True new=0 errors=0
+2026-10-10 22:18:38,600 INFO pulse.collect: fetched=4 kept=3 new=3 dropped={}
+2026-10-10 22:18:41,429 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 22:18:42,213 INFO pulse.collect: m1 classified 3 items
+2026-10-10 22:18:42,213 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 22:18:44,082 INFO pulse.collect: m2 classified 3 items
+2026-10-10 22:18:44,084 INFO pulse.collect: run 132 finished ok=True new=3 errors=0
+2026-10-10 22:28:38,604 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'no_rail_context': 1}
+2026-10-10 22:28:41,424 INFO pulse.collect: run 133 finished ok=True new=0 errors=0
+2026-10-10 22:38:38,863 INFO pulse.collect: fetched=2 kept=2 new=2 dropped={}
+2026-10-10 22:38:41,673 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 22:38:42,472 INFO pulse.collect: m1 classified 2 items
+2026-10-10 22:38:42,472 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 22:38:44,275 INFO pulse.collect: m2 classified 2 items
+2026-10-10 22:38:44,277 INFO pulse.collect: run 134 finished ok=True new=2 errors=0
+2026-10-10 22:48:39,179 INFO pulse.collect: fetched=7 kept=4 new=4 dropped={'bot': 3}
+2026-10-10 22:48:42,001 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 22:48:43,457 INFO pulse.collect: m1 classified 4 items
+2026-10-10 22:48:43,457 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 22:48:46,135 INFO pulse.collect: m2 classified 4 items
+2026-10-10 22:48:46,137 INFO pulse.collect: run 135 finished ok=True new=4 errors=0
+2026-10-10 22:58:38,406 INFO pulse.collect: fetched=5 kept=1 new=1 dropped={'bot': 4}
+2026-10-10 22:58:41,247 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 22:58:42,027 INFO pulse.collect: m1 classified 1 items
+2026-10-10 22:58:42,028 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 22:58:43,829 INFO pulse.collect: m2 classified 1 items
+2026-10-10 22:58:43,831 INFO pulse.collect: run 136 finished ok=True new=1 errors=0
+2026-10-10 23:08:38,936 INFO pulse.collect: fetched=4 kept=2 new=2 dropped={'empty': 1}
+2026-10-10 23:08:41,805 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 23:08:42,577 INFO pulse.collect: m1 classified 2 items
+2026-10-10 23:08:42,577 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 23:08:44,352 INFO pulse.collect: m2 classified 2 items
+2026-10-10 23:08:44,354 INFO pulse.collect: run 137 finished ok=True new=2 errors=0
+2026-10-10 23:18:38,486 INFO pulse.collect: fetched=3 kept=3 new=3 dropped={}
+2026-10-10 23:18:41,309 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 23:18:42,176 INFO pulse.collect: m1 classified 3 items
+2026-10-10 23:18:42,176 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 23:18:44,010 INFO pulse.collect: m2 classified 3 items
+2026-10-10 23:18:44,011 INFO pulse.collect: run 138 finished ok=True new=3 errors=0
+2026-10-10 23:28:38,691 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-10 23:28:41,512 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 23:28:42,304 INFO pulse.collect: m1 classified 1 items
+2026-10-10 23:28:42,305 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 23:28:44,114 INFO pulse.collect: m2 classified 1 items
+2026-10-10 23:28:44,116 INFO pulse.collect: run 139 finished ok=True new=1 errors=0
+2026-10-10 23:38:38,720 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 23:38:41,539 INFO pulse.collect: run 140 finished ok=True new=0 errors=0
+2026-10-10 23:48:43,060 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-10 23:49:04,863 INFO pulse.collect: run 141 finished ok=True new=0 errors=0
+2026-10-10 23:58:39,335 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={}
+2026-10-10 23:58:42,179 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-10 23:58:43,417 INFO pulse.collect: m1 classified 1 items
+2026-10-10 23:58:43,417 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-10 23:58:45,238 INFO pulse.collect: m2 classified 1 items
+2026-10-10 23:58:45,240 INFO pulse.collect: run 142 finished ok=True new=1 errors=0
+2026-10-11 00:08:41,258 INFO pulse.collect: fetched=5 kept=4 new=4 dropped={'bot': 1}
+2026-10-11 00:08:44,142 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 00:08:44,991 INFO pulse.collect: m1 classified 4 items
+2026-10-11 00:08:44,991 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 00:08:46,866 INFO pulse.collect: m2 classified 4 items
+2026-10-11 00:08:46,868 INFO pulse.collect: run 143 finished ok=True new=4 errors=0
+2026-10-11 00:18:38,317 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 00:18:41,142 INFO pulse.collect: run 144 finished ok=True new=0 errors=0
+2026-10-11 00:28:38,435 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 00:28:41,264 INFO pulse.collect: run 145 finished ok=True new=0 errors=0
+2026-10-11 00:38:38,556 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 00:38:41,372 INFO pulse.collect: run 146 finished ok=True new=0 errors=0
+2026-10-11 00:48:24,053 INFO pulse.collect: Bluesky client mode: anonymous
+2026-10-11 00:48:43,239 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={}
+2026-10-11 00:48:46,152 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 00:48:47,085 INFO pulse.collect: m1 classified 1 items
+2026-10-11 00:48:47,085 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 00:48:48,978 INFO pulse.collect: m2 classified 1 items
+2026-10-11 00:48:48,979 INFO pulse.collect: run 147 finished ok=True new=1 errors=0
+2026-10-11 00:58:41,210 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-11 00:58:44,063 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 00:58:44,834 INFO pulse.collect: m1 classified 1 items
+2026-10-11 00:58:44,835 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 00:58:46,676 INFO pulse.collect: m2 classified 1 items
+2026-10-11 00:58:46,678 INFO pulse.collect: run 148 finished ok=True new=1 errors=0
+2026-10-11 01:08:38,775 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 01:08:41,593 INFO pulse.collect: run 149 finished ok=True new=0 errors=0
+2026-10-11 01:18:38,689 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 01:18:41,552 INFO pulse.collect: run 150 finished ok=True new=0 errors=0
+2026-10-11 01:28:40,680 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={'empty': 1}
+2026-10-11 01:28:43,511 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 01:28:44,257 INFO pulse.collect: m1 classified 1 items
+2026-10-11 01:28:44,258 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 01:28:46,101 INFO pulse.collect: m2 classified 1 items
+2026-10-11 01:28:46,103 INFO pulse.collect: run 151 finished ok=True new=1 errors=0
+2026-10-11 01:38:38,780 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-11 01:38:41,631 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 01:38:42,397 INFO pulse.collect: m1 classified 1 items
+2026-10-11 01:38:42,397 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 01:38:44,197 INFO pulse.collect: m2 classified 1 items
+2026-10-11 01:38:44,199 INFO pulse.collect: run 152 finished ok=True new=1 errors=0
+2026-10-11 01:48:40,162 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 01:48:42,996 INFO pulse.collect: run 153 finished ok=True new=0 errors=0
+2026-10-11 01:58:38,706 INFO pulse.collect: fetched=3 kept=2 new=2 dropped={}
+2026-10-11 01:58:41,521 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 01:58:42,317 INFO pulse.collect: m1 classified 2 items
+2026-10-11 01:58:42,317 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 01:58:44,134 INFO pulse.collect: m2 classified 2 items
+2026-10-11 01:58:44,136 INFO pulse.collect: run 154 finished ok=True new=2 errors=0
+2026-10-11 02:08:38,814 INFO pulse.collect: fetched=2 kept=2 new=2 dropped={}
+2026-10-11 02:08:41,647 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 02:08:42,457 INFO pulse.collect: m1 classified 2 items
+2026-10-11 02:08:42,458 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 02:08:44,251 INFO pulse.collect: m2 classified 2 items
+2026-10-11 02:08:44,253 INFO pulse.collect: run 155 finished ok=True new=2 errors=0
+2026-10-11 02:18:38,681 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 02:18:41,521 INFO pulse.collect: run 156 finished ok=True new=0 errors=0
+2026-10-11 02:28:40,389 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 02:28:43,240 INFO pulse.collect: run 157 finished ok=True new=0 errors=0
+2026-10-11 02:38:39,333 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 02:38:42,448 INFO pulse.collect: run 158 finished ok=True new=0 errors=0
+2026-10-11 02:48:39,334 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 02:48:42,176 INFO pulse.collect: run 159 finished ok=True new=0 errors=0
+2026-10-11 02:58:39,477 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 02:58:42,302 INFO pulse.collect: run 160 finished ok=True new=0 errors=0
+2026-10-11 03:08:38,403 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-11 03:08:41,217 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 03:08:41,995 INFO pulse.collect: m1 classified 1 items
+2026-10-11 03:08:41,995 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 03:08:43,893 INFO pulse.collect: m2 classified 1 items
+2026-10-11 03:08:43,895 INFO pulse.collect: run 161 finished ok=True new=1 errors=0
+2026-10-11 03:18:38,449 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-11 03:18:41,298 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 03:18:42,062 INFO pulse.collect: m1 classified 1 items
+2026-10-11 03:18:42,063 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 03:18:43,811 INFO pulse.collect: m2 classified 1 items
+2026-10-11 03:18:43,813 INFO pulse.collect: run 162 finished ok=True new=1 errors=0
+2026-10-11 03:28:38,686 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 03:28:41,544 INFO pulse.collect: run 163 finished ok=True new=0 errors=0
+2026-10-11 03:38:38,799 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 03:38:41,675 INFO pulse.collect: run 164 finished ok=True new=0 errors=0
+2026-10-11 03:48:38,893 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 03:48:41,739 INFO pulse.collect: run 165 finished ok=True new=0 errors=0
+2026-10-11 03:58:38,543 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 03:58:41,379 INFO pulse.collect: run 166 finished ok=True new=0 errors=0
+2026-10-11 04:08:39,464 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 04:08:42,265 INFO pulse.collect: run 167 finished ok=True new=0 errors=0
+2026-10-11 04:18:24,297 INFO pulse.collect: Bluesky client mode: anonymous
+2026-10-11 04:18:43,149 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 04:18:46,021 INFO pulse.collect: run 168 finished ok=True new=0 errors=0
+2026-10-11 04:28:38,692 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 04:28:41,543 INFO pulse.collect: run 169 finished ok=True new=0 errors=0
+2026-10-11 04:38:38,531 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 04:38:41,360 INFO pulse.collect: run 170 finished ok=True new=0 errors=0
+2026-10-11 04:48:38,655 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'no_rail_context': 1}
+2026-10-11 04:48:41,496 INFO pulse.collect: run 171 finished ok=True new=0 errors=0
+2026-10-11 04:58:39,299 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 04:58:42,150 INFO pulse.collect: run 172 finished ok=True new=0 errors=0
+2026-10-11 05:08:38,869 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 05:08:41,658 INFO pulse.collect: run 173 finished ok=True new=0 errors=0
+2026-10-11 05:18:39,636 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'no_rail_context': 1}
+2026-10-11 05:18:42,474 INFO pulse.collect: run 174 finished ok=True new=0 errors=0
+2026-10-11 05:28:39,081 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 05:28:41,924 INFO pulse.collect: run 175 finished ok=True new=0 errors=0
+2026-10-11 05:38:39,199 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 05:38:42,016 INFO pulse.collect: run 176 finished ok=True new=0 errors=0
+2026-10-11 05:48:38,841 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-11 05:48:41,663 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 05:48:42,486 INFO pulse.collect: m1 classified 1 items
+2026-10-11 05:48:42,486 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 05:48:44,305 INFO pulse.collect: m2 classified 1 items
+2026-10-11 05:48:44,307 INFO pulse.collect: run 177 finished ok=True new=1 errors=0
+2026-10-11 05:58:39,649 INFO pulse.collect: fetched=2 kept=2 new=2 dropped={}
+2026-10-11 05:58:42,504 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 05:58:43,338 INFO pulse.collect: m1 classified 2 items
+2026-10-11 05:58:43,338 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 05:58:45,185 INFO pulse.collect: m2 classified 2 items
+2026-10-11 05:58:45,186 INFO pulse.collect: run 178 finished ok=True new=2 errors=0
+2026-10-11 06:08:39,367 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-11 06:08:42,185 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 06:08:42,941 INFO pulse.collect: m1 classified 1 items
+2026-10-11 06:08:42,942 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 06:08:44,685 INFO pulse.collect: m2 classified 1 items
+2026-10-11 06:08:44,687 INFO pulse.collect: run 179 finished ok=True new=1 errors=0
+2026-10-11 06:18:39,173 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 06:18:42,042 INFO pulse.collect: run 180 finished ok=True new=0 errors=0
+2026-10-11 06:28:38,683 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'duplicate': 1}
+2026-10-11 06:28:41,516 INFO pulse.collect: run 181 finished ok=True new=0 errors=0
+2026-10-11 06:38:38,878 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'no_rail_context': 1}
+2026-10-11 06:38:41,723 INFO pulse.collect: run 182 finished ok=True new=0 errors=0
+2026-10-11 06:48:38,913 INFO pulse.collect: fetched=2 kept=2 new=2 dropped={}
+2026-10-11 06:48:41,743 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 06:48:42,528 INFO pulse.collect: m1 classified 2 items
+2026-10-11 06:48:42,528 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 06:48:44,364 INFO pulse.collect: m2 classified 2 items
+2026-10-11 06:48:44,365 INFO pulse.collect: run 183 finished ok=True new=2 errors=0
+2026-10-11 06:58:38,714 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'duplicate': 1}
+2026-10-11 06:58:41,548 INFO pulse.collect: run 184 finished ok=True new=0 errors=0
+2026-10-11 07:08:38,873 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={'no_rail_context': 1}
+2026-10-11 07:08:41,695 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 07:08:42,410 INFO pulse.collect: m1 classified 1 items
+2026-10-11 07:08:42,410 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 07:08:44,222 INFO pulse.collect: m2 classified 1 items
+2026-10-11 07:08:44,224 INFO pulse.collect: run 185 finished ok=True new=1 errors=0
+2026-10-11 07:18:38,942 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'no_rail_context': 1}
+2026-10-11 07:18:41,758 INFO pulse.collect: run 186 finished ok=True new=0 errors=0
+2026-10-11 07:28:39,834 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'empty': 1}
+2026-10-11 07:28:42,644 INFO pulse.collect: run 187 finished ok=True new=0 errors=0
+2026-10-11 07:38:38,600 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 07:38:41,436 INFO pulse.collect: run 188 finished ok=True new=0 errors=0
+2026-10-11 07:48:39,108 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'too_short': 1}
+2026-10-11 07:48:41,982 INFO pulse.collect: run 189 finished ok=True new=0 errors=0
+2026-10-11 07:58:39,128 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 07:58:41,972 INFO pulse.collect: run 190 finished ok=True new=0 errors=0
+2026-10-11 08:08:39,112 INFO pulse.collect: fetched=2 kept=0 new=0 dropped={'too_short': 1, 'bot': 1}
+2026-10-11 08:08:41,922 INFO pulse.collect: run 191 finished ok=True new=0 errors=0
+2026-10-11 08:18:39,436 INFO pulse.collect: fetched=3 kept=1 new=1 dropped={'too_short': 1, 
+2026-10-11 08:18:42,280 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 08:18:43,062 INFO pulse.collect: m1 classified 1 items
+2026-10-11 08:18:43,062 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 08:18:44,918 INFO pulse.collect: m2 classified 1 items
+2026-10-11 08:18:44,919 INFO pulse.collect: run 192 finished ok=True new=1 errors=0
+2026-10-11 08:28:37,746 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-11 08:28:40,559 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 08:28:41,299 INFO pulse.collect: m1 classified 1 items
+2026-10-11 08:28:41,300 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 08:28:43,044 INFO pulse.collect: m2 classified 1 items
+2026-10-11 08:28:43,046 INFO pulse.collect: run 193 finished ok=True new=1 errors=0
+2026-10-11 08:38:38,220 INFO pulse.collect: fetched=5 kept=3 new=3 dropped={'too_short': 1, 
+2026-10-11 08:38:41,039 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 08:38:41,859 INFO pulse.collect: m1 classified 3 items
+2026-10-11 08:38:41,859 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 08:38:43,707 INFO pulse.collect: m2 classified 3 items
+2026-10-11 08:38:43,708 INFO pulse.collect: run 194 finished ok=True new=3 errors=0
+2026-10-11 08:48:37,961 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'no_rail_context': 1}
+2026-10-11 08:48:40,794 INFO pulse.collect: run 195 finished ok=True new=0 errors=0
+2026-10-11 08:58:37,940 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={'no_rail_context': 1}
+2026-10-11 08:58:40,806 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 08:58:41,549 INFO pulse.collect: m1 classified 1 items
+2026-10-11 08:58:41,549 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 08:58:43,343 INFO pulse.collect: m2 classified 1 items
+2026-10-11 08:58:43,345 INFO pulse.collect: run 196 finished ok=True new=1 errors=0
+2026-10-11 09:08:38,176 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={'no_rail_context': 1}
+2026-10-11 09:08:40,975 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 09:08:41,694 INFO pulse.collect: m1 classified 1 items
+2026-10-11 09:08:41,695 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 09:08:43,464 INFO pulse.collect: m2 classified 1 items
+2026-10-11 09:08:43,465 INFO pulse.collect: run 197 finished ok=True new=1 errors=0
+2026-10-11 09:18:37,960 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 09:18:40,795 INFO pulse.collect: run 198 finished ok=True new=0 errors=0
+2026-10-11 09:28:37,867 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 09:28:40,699 INFO pulse.collect: run 199 finished ok=True new=0 errors=0
+2026-10-11 09:38:37,794 INFO pulse.collect: fetched=3 kept=1 new=1 dropped={'no_rail_context': 1, 
+2026-10-11 09:38:40,601 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 09:38:41,466 INFO pulse.collect: m1 classified 1 items
+2026-10-11 09:38:41,466 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 09:38:43,192 INFO pulse.collect: m2 classified 1 items
+2026-10-11 09:38:43,194 INFO pulse.collect: run 200 finished ok=True new=1 errors=0
+2026-10-11 09:48:38,356 INFO pulse.collect: fetched=3 kept=2 new=2 dropped={'no_rail_context': 1}
+2026-10-11 09:48:41,209 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 09:48:42,010 INFO pulse.collect: m1 classified 2 items
+2026-10-11 09:48:42,010 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 09:48:43,815 INFO pulse.collect: m2 classified 2 items
+2026-10-11 09:48:43,817 INFO pulse.collect: run 201 finished ok=True new=2 errors=0
+2026-10-11 09:58:38,643 INFO pulse.collect: fetched=5 kept=3 new=3 dropped={'no_rail_context': 2}
+2026-10-11 09:58:41,512 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 09:58:42,358 INFO pulse.collect: m1 classified 3 items
+2026-10-11 09:58:42,359 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 09:58:44,170 INFO pulse.collect: m2 classified 3 items
+2026-10-11 09:58:44,172 INFO pulse.collect: run 202 finished ok=True new=3 errors=0
+2026-10-11 10:08:38,782 INFO pulse.collect: fetched=5 kept=3 new=3 dropped={'no_rail_context': 1, 
+2026-10-11 10:08:41,586 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 10:08:42,360 INFO pulse.collect: m1 classified 3 items
+2026-10-11 10:08:42,361 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 10:08:44,137 INFO pulse.collect: m2 classified 3 items
+2026-10-11 10:08:44,138 INFO pulse.collect: run 203 finished ok=True new=3 errors=0
+2026-10-11 10:18:38,289 INFO pulse.collect: fetched=4 kept=3 new=3 dropped={'too_short': 1}
+2026-10-11 10:18:41,114 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 10:18:41,927 INFO pulse.collect: m1 classified 3 items
+2026-10-11 10:18:41,927 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 10:18:43,719 INFO pulse.collect: m2 classified 3 items
+2026-10-11 10:18:43,720 INFO pulse.collect: run 204 finished ok=True new=3 errors=0
+2026-10-11 10:28:38,074 INFO pulse.collect: fetched=3 kept=0 new=0 dropped={'too_short': 1, 
+2026-10-11 10:28:40,883 INFO pulse.collect: run 205 finished ok=True new=0 errors=0
+2026-10-11 10:38:37,986 INFO pulse.collect: fetched=5 kept=3 new=3 dropped={'no_rail_context': 2}
+2026-10-11 10:38:40,806 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 10:38:41,603 INFO pulse.collect: m1 classified 3 items
+2026-10-11 10:38:41,604 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 10:38:43,441 INFO pulse.collect: m2 classified 3 items
+2026-10-11 10:38:43,443 INFO pulse.collect: run 206 finished ok=True new=3 errors=0
+2026-10-11 10:48:37,718 INFO pulse.collect: fetched=4 kept=2 new=2 dropped={}
+2026-10-11 10:48:40,571 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 10:48:41,403 INFO pulse.collect: m1 classified 2 items
+2026-10-11 10:48:41,403 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 10:48:43,249 INFO pulse.collect: m2 classified 2 items
+2026-10-11 10:48:43,251 INFO pulse.collect: run 207 finished ok=True new=2 errors=0
+2026-10-11 10:58:39,114 INFO pulse.collect: fetched=8 kept=6 new=6 dropped={'too_short': 1}
+2026-10-11 10:58:41,995 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 10:58:42,929 INFO pulse.collect: m1 classified 6 items
+2026-10-11 10:58:42,930 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 10:58:44,843 INFO pulse.collect: m2 classified 6 items
+2026-10-11 10:58:44,845 INFO pulse.collect: run 208 finished ok=True new=6 errors=0
+2026-10-11 11:08:38,412 INFO pulse.collect: fetched=9 kept=4 new=4 dropped={'no_rail_context': 3}
+2026-10-11 11:08:41,192 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 11:08:42,131 INFO pulse.collect: m1 classified 4 items
+2026-10-11 11:08:42,131 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 11:08:44,011 INFO pulse.collect: m2 classified 4 items
+2026-10-11 11:08:44,013 INFO pulse.collect: run 209 finished ok=True new=4 errors=0
+2026-10-11 11:18:37,991 INFO pulse.collect: fetched=6 kept=3 new=3 dropped={'no_rail_context': 3}
+2026-10-11 11:18:40,797 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 11:18:41,606 INFO pulse.collect: m1 classified 3 items
+2026-10-11 11:18:41,606 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 11:18:43,478 INFO pulse.collect: m2 classified 3 items
+2026-10-11 11:18:43,480 INFO pulse.collect: run 210 finished ok=True new=3 errors=0
+2026-10-11 11:28:38,530 INFO pulse.collect: fetched=5 kept=2 new=2 dropped={'too_short': 1, 
+2026-10-11 11:28:41,335 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 11:28:42,122 INFO pulse.collect: m1 classified 2 items
+2026-10-11 11:28:42,123 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 11:28:43,915 INFO pulse.collect: m2 classified 2 items
+2026-10-11 11:28:43,916 INFO pulse.collect: run 211 finished ok=True new=2 errors=0
+2026-10-11 11:38:38,641 INFO pulse.collect: fetched=5 kept=3 new=3 dropped={'bot': 1, 
+2026-10-11 11:38:41,443 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 11:38:42,247 INFO pulse.collect: m1 classified 3 items
+2026-10-11 11:38:42,247 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 11:38:44,056 INFO pulse.collect: m2 classified 3 items
+2026-10-11 11:38:44,058 INFO pulse.collect: run 212 finished ok=True new=3 errors=0
+2026-10-11 11:48:38,242 INFO pulse.collect: fetched=4 kept=1 new=1 dropped={'no_rail_context': 3}
+2026-10-11 11:48:41,043 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 11:48:41,829 INFO pulse.collect: m1 classified 1 items
+2026-10-11 11:48:41,830 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 11:48:43,660 INFO pulse.collect: m2 classified 1 items
+2026-10-11 11:48:43,661 INFO pulse.collect: run 213 finished ok=True new=1 errors=0
+2026-10-11 11:58:38,043 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'no_rail_context': 1}
+2026-10-11 11:58:40,847 INFO pulse.collect: run 214 finished ok=True new=0 errors=0
+2026-10-11 12:08:38,660 INFO pulse.collect: fetched=6 kept=4 new=4 dropped={'bot': 1, 'too_short': 1}
+2026-10-11 12:08:41,520 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 12:08:42,325 INFO pulse.collect: m1 classified 4 items
+2026-10-11 12:08:42,325 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 12:08:44,161 INFO pulse.collect: m2 classified 4 items
+2026-10-11 12:08:44,163 INFO pulse.collect: run 215 finished ok=True new=4 errors=0
+2026-10-11 12:18:38,740 INFO pulse.collect: fetched=3 kept=1 new=1 dropped={'bot': 1}
+2026-10-11 12:18:41,555 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 12:18:42,280 INFO pulse.collect: m1 classified 1 items
+2026-10-11 12:18:42,281 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 12:18:44,056 INFO pulse.collect: m2 classified 1 items
+2026-10-11 12:18:44,058 INFO pulse.collect: run 216 finished ok=True new=1 errors=0
+2026-10-11 12:28:42,021 INFO pulse.collect: fetched=5 kept=2 new=2 dropped={'no_rail_context': 1}
+2026-10-11 12:29:03,924 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 12:29:05,073 INFO pulse.collect: m1 classified 2 items
+2026-10-11 12:29:05,073 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 12:29:07,005 INFO pulse.collect: m2 classified 2 items
+2026-10-11 12:29:07,007 INFO pulse.collect: run 217 finished ok=True new=2 errors=0
+2026-10-11 12:38:38,138 INFO pulse.collect: fetched=7 kept=4 new=4 dropped={'no_rail_context': 3}
+2026-10-11 12:38:40,941 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 12:38:41,784 INFO pulse.collect: m1 classified 4 items
+2026-10-11 12:38:41,784 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 12:38:43,649 INFO pulse.collect: m2 classified 4 items
+2026-10-11 12:38:43,651 INFO pulse.collect: run 218 finished ok=True new=4 errors=0
+2026-10-11 12:48:38,399 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={'no_rail_context': 1}
+2026-10-11 12:48:41,244 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 12:48:42,019 INFO pulse.collect: m1 classified 1 items
+2026-10-11 12:48:42,019 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 12:48:43,836 INFO pulse.collect: m2 classified 1 items
+2026-10-11 12:48:43,838 INFO pulse.collect: run 219 finished ok=True new=1 errors=0
+2026-10-11 12:58:38,384 INFO pulse.collect: fetched=5 kept=3 new=3 dropped={'bot': 1}
+2026-10-11 12:58:41,201 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 12:58:42,006 INFO pulse.collect: m1 classified 3 items
+2026-10-11 12:58:42,006 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 12:58:43,816 INFO pulse.collect: m2 classified 3 items
+2026-10-11 12:58:43,818 INFO pulse.collect: run 220 finished ok=True new=3 errors=0
+2026-10-11 13:08:38,258 INFO pulse.collect: fetched=3 kept=2 new=2 dropped={}
+2026-10-11 13:08:41,064 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 13:08:41,931 INFO pulse.collect: m1 classified 2 items
+2026-10-11 13:08:41,931 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 13:08:43,799 INFO pulse.collect: m2 classified 2 items
+2026-10-11 13:08:43,801 INFO pulse.collect: run 221 finished ok=True new=2 errors=0
+2026-10-11 13:18:38,315 INFO pulse.collect: fetched=4 kept=2 new=2 dropped={'no_rail_context': 2}
+2026-10-11 13:18:41,229 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 13:18:42,053 INFO pulse.collect: m1 classified 2 items
+2026-10-11 13:18:42,053 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 13:18:43,832 INFO pulse.collect: m2 classified 2 items
+2026-10-11 13:18:43,833 INFO pulse.collect: run 222 finished ok=True new=2 errors=0
+2026-10-11 13:28:42,448 INFO pulse.collect: fetched=2 kept=2 new=2 dropped={}
+2026-10-11 13:28:45,253 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 13:28:46,101 INFO pulse.collect: m1 classified 2 items
+2026-10-11 13:28:46,102 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 13:28:47,898 INFO pulse.collect: m2 classified 2 items
+2026-10-11 13:28:47,900 INFO pulse.collect: run 223 finished ok=True new=2 errors=0
+2026-10-11 13:38:39,455 INFO pulse.collect: fetched=3 kept=3 new=3 dropped={}
+2026-10-11 13:38:42,259 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 13:38:43,104 INFO pulse.collect: m1 classified 3 items
+2026-10-11 13:38:43,104 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 13:38:44,922 INFO pulse.collect: m2 classified 3 items
+2026-10-11 13:38:44,924 INFO pulse.collect: run 224 finished ok=True new=3 errors=0
+2026-10-11 13:48:38,628 INFO pulse.collect: fetched=2 kept=0 new=0 dropped={'duplicate': 1, 'empty': 1}
+2026-10-11 13:48:41,476 INFO pulse.collect: run 225 finished ok=True new=0 errors=0
+2026-10-11 13:58:38,937 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 13:58:41,755 INFO pulse.collect: run 226 finished ok=True new=0 errors=0
+2026-10-11 14:08:38,614 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 14:08:41,422 INFO pulse.collect: run 227 finished ok=True new=0 errors=0
+2026-10-11 14:18:36,769 WARNING pulse.collect: query 'Regionalbahn': InvokeTimeoutError: 
+2026-10-11 14:18:42,113 WARNING pulse.collect: query 'Regionalexpress': InvokeTimeoutError: 
+2026-10-11 14:18:48,779 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-11 14:18:51,680 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 14:18:52,473 INFO pulse.collect: m1 classified 1 items
+2026-10-11 14:18:52,473 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 14:18:54,348 INFO pulse.collect: m2 classified 1 items
+2026-10-11 14:18:54,349 INFO pulse.collect: run 228 finished ok=True new=1 errors=2
+2026-10-11 14:28:38,583 INFO pulse.collect: fetched=3 kept=3 new=3 dropped={}
+2026-10-11 14:28:41,404 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 14:28:42,282 INFO pulse.collect: m1 classified 3 items
+2026-10-11 14:28:42,282 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 14:28:44,142 INFO pulse.collect: m2 classified 3 items
+2026-10-11 14:28:44,144 INFO pulse.collect: run 229 finished ok=True new=3 errors=0
+2026-10-11 14:38:41,466 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 14:39:01,578 INFO pulse.collect: run 230 finished ok=True new=0 errors=0
+2026-10-11 14:48:38,410 INFO pulse.collect: fetched=5 kept=2 new=2 dropped={'no_rail_context': 3}
+2026-10-11 14:48:41,204 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 14:48:42,264 INFO pulse.collect: m1 classified 2 items
+2026-10-11 14:48:42,264 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 14:48:44,171 INFO pulse.collect: m2 classified 2 items
+2026-10-11 14:48:44,172 INFO pulse.collect: run 231 finished ok=True new=2 errors=0
+2026-10-11 14:58:38,406 INFO pulse.collect: fetched=10 kept=4 new=4 dropped={'no_rail_context': 2, 
+2026-10-11 14:58:41,207 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 14:58:42,150 INFO pulse.collect: m1 classified 4 items
+2026-10-11 14:58:42,150 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 14:58:44,114 INFO pulse.collect: m2 classified 4 items
+2026-10-11 14:58:44,117 INFO pulse.collect: run 232 finished ok=True new=4 errors=0
+2026-10-11 15:08:38,329 INFO pulse.collect: fetched=5 kept=3 new=3 dropped={'no_rail_context': 1}
+2026-10-11 15:08:41,143 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 15:08:41,985 INFO pulse.collect: m1 classified 3 items
+2026-10-11 15:08:41,985 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 15:08:43,826 INFO pulse.collect: m2 classified 3 items
+2026-10-11 15:08:43,828 INFO pulse.collect: run 233 finished ok=True new=3 errors=0
+2026-10-11 15:18:38,570 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={'no_rail_context': 1}
+2026-10-11 15:18:41,375 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 15:18:42,179 INFO pulse.collect: m1 classified 1 items
+2026-10-11 15:18:42,179 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 15:18:44,027 INFO pulse.collect: m2 classified 1 items
+2026-10-11 15:18:44,028 INFO pulse.collect: run 234 finished ok=True new=1 errors=0
+2026-10-11 15:28:38,735 INFO pulse.collect: fetched=9 kept=5 new=5 dropped={}
+2026-10-11 15:28:41,583 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 15:28:42,525 INFO pulse.collect: m1 classified 5 items
+2026-10-11 15:28:42,525 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 15:28:44,459 INFO pulse.collect: m2 classified 5 items
+2026-10-11 15:28:44,460 INFO pulse.collect: run 235 finished ok=True new=5 errors=0
+2026-10-11 15:38:38,293 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-11 15:38:41,095 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 15:38:41,965 INFO pulse.collect: m1 classified 1 items
+2026-10-11 15:38:41,965 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 15:38:43,742 INFO pulse.collect: m2 classified 1 items
+2026-10-11 15:38:43,744 INFO pulse.collect: run 236 finished ok=True new=1 errors=0
+2026-10-11 15:48:38,628 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={}
+2026-10-11 15:48:41,422 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 15:48:42,225 INFO pulse.collect: m1 classified 1 items
+2026-10-11 15:48:42,226 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 15:48:43,993 INFO pulse.collect: m2 classified 1 items
+2026-10-11 15:48:43,995 INFO pulse.collect: run 237 finished ok=True new=1 errors=0
+2026-10-11 15:58:38,201 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-11 15:58:41,026 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 15:58:41,833 INFO pulse.collect: m1 classified 1 items
+2026-10-11 15:58:41,834 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 15:58:43,630 INFO pulse.collect: m2 classified 1 items
+2026-10-11 15:58:43,632 INFO pulse.collect: run 238 finished ok=True new=1 errors=0
+2026-10-11 16:08:38,182 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'bot': 1}
+2026-10-11 16:08:41,004 INFO pulse.collect: run 239 finished ok=True new=0 errors=0
+2026-10-11 16:18:38,481 INFO pulse.collect: fetched=4 kept=2 new=2 dropped={}
+2026-10-11 16:18:41,297 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 16:18:42,121 INFO pulse.collect: m1 classified 2 items
+2026-10-11 16:18:42,122 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 16:18:43,921 INFO pulse.collect: m2 classified 2 items
+2026-10-11 16:18:43,923 INFO pulse.collect: run 240 finished ok=True new=2 errors=0
+2026-10-11 16:28:38,572 INFO pulse.collect: fetched=4 kept=3 new=3 dropped={'no_rail_context': 1}
+2026-10-11 16:28:41,408 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 16:28:42,194 INFO pulse.collect: m1 classified 3 items
+2026-10-11 16:28:42,194 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 16:28:44,009 INFO pulse.collect: m2 classified 3 items
+2026-10-11 16:28:44,010 INFO pulse.collect: run 241 finished ok=True new=3 errors=0
+2026-10-11 16:38:38,302 INFO pulse.collect: fetched=3 kept=1 new=1 dropped={'bot': 1, 
+2026-10-11 16:38:41,145 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 16:38:41,928 INFO pulse.collect: m1 classified 1 items
+2026-10-11 16:38:41,929 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 16:38:43,757 INFO pulse.collect: m2 classified 1 items
+2026-10-11 16:38:43,759 INFO pulse.collect: run 242 finished ok=True new=1 errors=0
+2026-10-11 16:48:38,404 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={'too_short': 1}
+2026-10-11 16:48:41,289 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 16:48:42,061 INFO pulse.collect: m1 classified 1 items
+2026-10-11 16:48:42,061 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 16:48:43,794 INFO pulse.collect: m2 classified 1 items
+2026-10-11 16:48:43,795 INFO pulse.collect: run 243 finished ok=True new=1 errors=0
+2026-10-11 16:58:38,175 INFO pulse.collect: fetched=7 kept=3 new=3 dropped={'empty': 2, 
+2026-10-11 16:58:40,996 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 16:58:41,802 INFO pulse.collect: m1 classified 3 items
+2026-10-11 16:58:41,802 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 16:58:43,767 INFO pulse.collect: m2 classified 3 items
+2026-10-11 16:58:43,769 INFO pulse.collect: run 244 finished ok=True new=3 errors=0
+2026-10-11 17:08:38,602 INFO pulse.collect: fetched=4 kept=2 new=2 dropped={'no_rail_context': 1}
+2026-10-11 17:08:41,432 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 17:08:42,245 INFO pulse.collect: m1 classified 2 items
+2026-10-11 17:08:42,245 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 17:08:44,042 INFO pulse.collect: m2 classified 2 items
+2026-10-11 17:08:44,043 INFO pulse.collect: run 245 finished ok=True new=2 errors=0
+2026-10-11 17:18:38,205 INFO pulse.collect: fetched=7 kept=4 new=4 dropped={'no_rail_context': 1, 
+2026-10-11 17:18:41,015 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 17:18:41,872 INFO pulse.collect: m1 classified 4 items
+2026-10-11 17:18:41,872 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 17:18:43,765 INFO pulse.collect: m2 classified 4 items
+2026-10-11 17:18:43,767 INFO pulse.collect: run 246 finished ok=True new=4 errors=0
+2026-10-11 17:28:38,608 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-11 17:28:41,448 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 17:28:42,256 INFO pulse.collect: m1 classified 1 items
+2026-10-11 17:28:42,256 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 17:28:44,018 INFO pulse.collect: m2 classified 1 items
+2026-10-11 17:28:44,019 INFO pulse.collect: run 247 finished ok=True new=1 errors=0
+2026-10-11 17:38:40,249 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-11 17:38:43,082 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 17:38:43,940 INFO pulse.collect: m1 classified 1 items
+2026-10-11 17:38:43,940 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 17:38:45,872 INFO pulse.collect: m2 classified 1 items
+2026-10-11 17:38:45,874 INFO pulse.collect: run 248 finished ok=True new=1 errors=0
+2026-10-11 17:48:38,581 INFO pulse.collect: fetched=2 kept=2 new=2 dropped={}
+2026-10-11 17:48:41,384 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 17:48:42,198 INFO pulse.collect: m1 classified 2 items
+2026-10-11 17:48:42,198 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 17:48:44,013 INFO pulse.collect: m2 classified 2 items
+2026-10-11 17:48:44,015 INFO pulse.collect: run 249 finished ok=True new=2 errors=0
+2026-10-11 17:58:23,865 INFO pulse.collect: Bluesky client mode: anonymous
+2026-10-11 17:58:45,984 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-11 17:58:48,840 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 17:58:49,615 INFO pulse.collect: m1 classified 1 items
+2026-10-11 17:58:49,616 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 17:58:51,418 INFO pulse.collect: m2 classified 1 items
+2026-10-11 17:58:51,420 INFO pulse.collect: run 250 finished ok=True new=1 errors=0
+2026-10-11 18:08:38,333 INFO pulse.collect: fetched=4 kept=2 new=2 dropped={'empty': 1}
+2026-10-11 18:08:41,154 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 18:08:41,962 INFO pulse.collect: m1 classified 2 items
+2026-10-11 18:08:41,962 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 18:08:43,767 INFO pulse.collect: m2 classified 2 items
+2026-10-11 18:08:43,769 INFO pulse.collect: run 251 finished ok=True new=2 errors=0
+2026-10-11 18:18:39,090 INFO pulse.collect: fetched=5 kept=3 new=3 dropped={'no_rail_context': 2}
+2026-10-11 18:18:41,907 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 18:18:42,758 INFO pulse.collect: m1 classified 3 items
+2026-10-11 18:18:42,758 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 18:18:44,606 INFO pulse.collect: m2 classified 3 items
+2026-10-11 18:18:44,608 INFO pulse.collect: run 252 finished ok=True new=3 errors=0
+2026-10-11 18:28:38,610 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={}
+2026-10-11 18:28:41,409 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 18:28:42,233 INFO pulse.collect: m1 classified 1 items
+2026-10-11 18:28:42,233 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 18:28:44,033 INFO pulse.collect: m2 classified 1 items
+2026-10-11 18:28:44,035 INFO pulse.collect: run 253 finished ok=True new=1 errors=0
+2026-10-11 18:38:38,282 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-11 18:38:41,116 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 18:38:41,869 INFO pulse.collect: m1 classified 1 items
+2026-10-11 18:38:41,869 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 18:38:43,653 INFO pulse.collect: m2 classified 1 items
+2026-10-11 18:38:43,655 INFO pulse.collect: run 254 finished ok=True new=1 errors=0
+2026-10-11 18:48:38,733 INFO pulse.collect: fetched=6 kept=4 new=4 dropped={}
+2026-10-11 18:48:41,588 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 18:48:42,439 INFO pulse.collect: m1 classified 4 items
+2026-10-11 18:48:42,440 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 18:48:44,307 INFO pulse.collect: m2 classified 4 items
+2026-10-11 18:48:44,308 INFO pulse.collect: run 255 finished ok=True new=4 errors=0
+2026-10-11 18:58:38,847 INFO pulse.collect: fetched=6 kept=4 new=4 dropped={'duplicate': 1, 
+2026-10-11 18:58:41,665 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 18:58:42,544 INFO pulse.collect: m1 classified 4 items
+2026-10-11 18:58:42,544 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 18:58:44,406 INFO pulse.collect: m2 classified 4 items
+2026-10-11 18:58:44,408 INFO pulse.collect: run 256 finished ok=True new=4 errors=0
+2026-10-11 19:08:38,645 INFO pulse.collect: fetched=4 kept=3 new=3 dropped={'no_rail_context': 1}
+2026-10-11 19:08:41,435 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 19:08:42,227 INFO pulse.collect: m1 classified 3 items
+2026-10-11 19:08:42,228 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 19:08:44,036 INFO pulse.collect: m2 classified 3 items
+2026-10-11 19:08:44,037 INFO pulse.collect: run 257 finished ok=True new=3 errors=0
+2026-10-11 19:18:38,729 INFO pulse.collect: fetched=3 kept=2 new=2 dropped={}
+2026-10-11 19:18:41,537 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 19:18:42,336 INFO pulse.collect: m1 classified 2 items
+2026-10-11 19:18:42,336 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 19:18:44,377 INFO pulse.collect: m2 classified 2 items
+2026-10-11 19:18:44,378 INFO pulse.collect: run 258 finished ok=True new=2 errors=0
+2026-10-11 19:28:38,246 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'no_rail_context': 1}
+2026-10-11 19:28:41,068 INFO pulse.collect: run 259 finished ok=True new=0 errors=0
+2026-10-11 19:38:38,192 INFO pulse.collect: fetched=4 kept=2 new=2 dropped={}
+2026-10-11 19:38:41,026 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 19:38:41,806 INFO pulse.collect: m1 classified 2 items
+2026-10-11 19:38:41,806 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 19:38:43,779 INFO pulse.collect: m2 classified 2 items
+2026-10-11 19:38:43,780 INFO pulse.collect: run 260 finished ok=True new=2 errors=0
+2026-10-11 19:48:38,361 INFO pulse.collect: fetched=4 kept=2 new=2 dropped={'no_rail_context': 2}
+2026-10-11 19:48:41,188 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 19:48:41,984 INFO pulse.collect: m1 classified 2 items
+2026-10-11 19:48:41,985 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 19:48:43,800 INFO pulse.collect: m2 classified 2 items
+2026-10-11 19:48:43,802 INFO pulse.collect: run 261 finished ok=True new=2 errors=0
+2026-10-11 19:58:42,266 INFO pulse.collect: fetched=10 kept=5 new=5 dropped={'no_rail_context': 5}
+2026-10-11 19:58:45,121 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 19:58:45,996 INFO pulse.collect: m1 classified 5 items
+2026-10-11 19:58:45,996 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 19:58:47,909 INFO pulse.collect: m2 classified 5 items
+2026-10-11 19:58:47,911 INFO pulse.collect: run 262 finished ok=True new=5 errors=0
+2026-10-11 20:08:23,995 INFO pulse.collect: Bluesky client mode: anonymous
+2026-10-11 20:08:44,129 INFO pulse.collect: fetched=6 kept=3 new=3 dropped={'no_rail_context': 2, 
+2026-10-11 20:08:46,968 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 20:08:47,885 INFO pulse.collect: m1 classified 3 items
+2026-10-11 20:08:47,886 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 20:08:49,802 INFO pulse.collect: m2 classified 3 items
+2026-10-11 20:08:49,804 INFO pulse.collect: run 263 finished ok=True new=3 errors=0
+2026-10-11 20:18:39,756 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-11 20:18:42,570 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 20:18:43,369 INFO pulse.collect: m1 classified 1 items
+2026-10-11 20:18:43,369 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 20:18:45,119 INFO pulse.collect: m2 classified 1 items
+2026-10-11 20:18:45,121 INFO pulse.collect: run 264 finished ok=True new=1 errors=0
+2026-10-11 20:28:39,057 INFO pulse.collect: fetched=2 kept=2 new=2 dropped={}
+2026-10-11 20:28:41,878 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 20:28:42,724 INFO pulse.collect: m1 classified 2 items
+2026-10-11 20:28:42,724 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 20:28:44,570 INFO pulse.collect: m2 classified 2 items
+2026-10-11 20:28:44,572 INFO pulse.collect: run 265 finished ok=True new=2 errors=0
+2026-10-11 20:38:38,521 INFO pulse.collect: fetched=5 kept=2 new=2 dropped={'too_short': 1, 
+2026-10-11 20:38:41,403 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 20:38:42,258 INFO pulse.collect: m1 classified 2 items
+2026-10-11 20:38:42,258 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 20:38:44,163 INFO pulse.collect: m2 classified 2 items
+2026-10-11 20:38:44,165 INFO pulse.collect: run 266 finished ok=True new=2 errors=0
+2026-10-11 20:48:39,119 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'no_rail_context': 1}
+2026-10-11 20:48:41,936 INFO pulse.collect: run 267 finished ok=True new=0 errors=0
+2026-10-11 20:58:39,270 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 20:58:42,083 INFO pulse.collect: run 268 finished ok=True new=0 errors=0
+2026-10-11 21:08:38,887 INFO pulse.collect: fetched=2 kept=2 new=2 dropped={}
+2026-10-11 21:08:41,737 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 21:08:42,480 INFO pulse.collect: m1 classified 2 items
+2026-10-11 21:08:42,480 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 21:08:44,367 INFO pulse.collect: m2 classified 2 items
+2026-10-11 21:08:44,369 INFO pulse.collect: run 269 finished ok=True new=2 errors=0
+2026-10-11 21:18:38,985 INFO pulse.collect: fetched=6 kept=4 new=4 dropped={'too_short': 1}
+2026-10-11 21:18:41,823 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 21:18:42,712 INFO pulse.collect: m1 classified 4 items
+2026-10-11 21:18:42,712 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 21:18:44,553 INFO pulse.collect: m2 classified 4 items
+2026-10-11 21:18:44,555 INFO pulse.collect: run 270 finished ok=True new=4 errors=0
+2026-10-11 21:28:38,819 INFO pulse.collect: fetched=2 kept=2 new=2 dropped={}
+2026-10-11 21:28:41,636 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 21:28:42,502 INFO pulse.collect: m1 classified 2 items
+2026-10-11 21:28:42,503 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 21:28:44,334 INFO pulse.collect: m2 classified 2 items
+2026-10-11 21:28:44,337 INFO pulse.collect: run 271 finished ok=True new=2 errors=0
+2026-10-11 21:38:38,557 INFO pulse.collect: fetched=2 kept=2 new=2 dropped={}
+2026-10-11 21:38:41,383 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 21:38:42,281 INFO pulse.collect: m1 classified 2 items
+2026-10-11 21:38:42,281 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 21:38:44,168 INFO pulse.collect: m2 classified 2 items
+2026-10-11 21:38:44,169 INFO pulse.collect: run 272 finished ok=True new=2 errors=0
+2026-10-11 21:48:39,588 INFO pulse.collect: fetched=4 kept=2 new=2 dropped={'no_rail_context': 1}
+2026-10-11 21:48:42,407 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 21:48:43,330 INFO pulse.collect: m1 classified 2 items
+2026-10-11 21:48:43,330 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 21:48:45,171 INFO pulse.collect: m2 classified 2 items
+2026-10-11 21:48:45,173 INFO pulse.collect: run 273 finished ok=True new=2 errors=0
+2026-10-11 21:58:39,105 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={'duplicate': 1}
+2026-10-11 21:58:45,115 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 21:58:46,344 INFO pulse.collect: m1 classified 1 items
+2026-10-11 21:58:46,344 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 21:58:48,907 INFO pulse.collect: m2 classified 1 items
+2026-10-11 21:58:48,909 INFO pulse.collect: run 274 finished ok=True new=1 errors=0
+2026-10-11 22:08:39,813 INFO pulse.collect: fetched=2 kept=1 new=1 dropped={}
+2026-10-11 22:08:43,316 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 22:08:44,235 INFO pulse.collect: m1 classified 1 items
+2026-10-11 22:08:44,236 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 22:08:46,372 INFO pulse.collect: m2 classified 1 items
+2026-10-11 22:08:46,374 INFO pulse.collect: run 275 finished ok=True new=1 errors=0
+2026-10-11 22:18:39,803 INFO pulse.collect: fetched=3 kept=1 new=1 dropped={'no_rail_context': 2}
+2026-10-11 22:18:43,407 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 22:18:44,422 INFO pulse.collect: m1 classified 1 items
+2026-10-11 22:18:44,423 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 22:18:46,534 INFO pulse.collect: m2 classified 1 items
+2026-10-11 22:18:46,537 INFO pulse.collect: run 276 finished ok=True new=1 errors=0
+2026-10-11 22:28:39,526 INFO pulse.collect: fetched=3 kept=2 new=2 dropped={'too_short': 1}
+2026-10-11 22:28:43,102 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 22:28:44,052 INFO pulse.collect: m1 classified 2 items
+2026-10-11 22:28:44,052 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 22:28:46,240 INFO pulse.collect: m2 classified 2 items
+2026-10-11 22:28:46,242 INFO pulse.collect: run 277 finished ok=True new=2 errors=0
+2026-10-11 22:38:39,609 INFO pulse.collect: fetched=6 kept=3 new=3 dropped={'no_rail_context': 3}
+2026-10-11 22:38:46,672 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 22:38:48,309 INFO pulse.collect: m1 classified 3 items
+2026-10-11 22:38:48,309 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 22:38:51,433 INFO pulse.collect: m2 classified 3 items
+2026-10-11 22:38:51,436 INFO pulse.collect: run 278 finished ok=True new=3 errors=0
+2026-10-11 22:48:39,361 INFO pulse.collect: fetched=3 kept=2 new=2 dropped={'no_rail_context': 1}
+2026-10-11 22:48:46,174 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 22:48:47,520 INFO pulse.collect: m1 classified 2 items
+2026-10-11 22:48:47,521 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 22:48:50,525 INFO pulse.collect: m2 classified 2 items
+2026-10-11 22:48:50,529 INFO pulse.collect: run 279 finished ok=True new=2 errors=0
+2026-10-11 22:58:39,231 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-11 22:58:45,958 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 22:58:47,238 INFO pulse.collect: m1 classified 1 items
+2026-10-11 22:58:47,239 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 22:58:50,085 INFO pulse.collect: m2 classified 1 items
+2026-10-11 22:58:50,089 INFO pulse.collect: run 280 finished ok=True new=1 errors=0
+2026-10-11 23:08:39,244 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-11 23:08:42,183 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 23:08:42,931 INFO pulse.collect: m1 classified 1 items
+2026-10-11 23:08:42,931 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 23:08:44,830 INFO pulse.collect: m2 classified 1 items
+2026-10-11 23:08:44,832 INFO pulse.collect: run 281 finished ok=True new=1 errors=0
+2026-10-11 23:18:39,385 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-11 23:18:42,440 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 23:18:43,174 INFO pulse.collect: m1 classified 1 items
+2026-10-11 23:18:43,174 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 23:18:44,953 INFO pulse.collect: m2 classified 1 items
+2026-10-11 23:18:44,955 INFO pulse.collect: run 282 finished ok=True new=1 errors=0
+2026-10-11 23:28:38,995 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 23:28:41,924 INFO pulse.collect: run 283 finished ok=True new=0 errors=0
+2026-10-11 23:38:38,982 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-11 23:38:41,878 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 23:38:42,632 INFO pulse.collect: m1 classified 1 items
+2026-10-11 23:38:42,633 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 23:38:44,515 INFO pulse.collect: m2 classified 1 items
+2026-10-11 23:38:44,517 INFO pulse.collect: run 284 finished ok=True new=1 errors=0
+2026-10-11 23:48:43,347 INFO pulse.collect: fetched=3 kept=1 new=1 dropped={'no_rail_context': 1, 'bot': 1}
+2026-10-11 23:49:06,785 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-11 23:49:07,985 INFO pulse.collect: m1 classified 1 items
+2026-10-11 23:49:07,986 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-11 23:49:09,876 INFO pulse.collect: m2 classified 1 items
+2026-10-11 23:49:09,879 INFO pulse.collect: run 285 finished ok=True new=1 errors=0
+2026-10-11 23:58:39,432 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-11 23:58:42,376 INFO pulse.collect: run 286 finished ok=True new=0 errors=0
+2026-10-12 00:08:38,932 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'no_rail_context': 1}
+2026-10-12 00:08:41,836 INFO pulse.collect: run 287 finished ok=True new=0 errors=0
+2026-10-12 00:18:41,369 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'no_rail_context': 1}
+2026-10-12 00:18:44,350 INFO pulse.collect: run 288 finished ok=True new=0 errors=0
+2026-10-12 00:28:45,173 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'no_rail_context': 1}
+2026-10-12 00:29:08,515 INFO pulse.collect: run 289 finished ok=True new=0 errors=0
+2026-10-12 00:38:38,718 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-12 00:38:41,627 INFO pulse.collect: run 290 finished ok=True new=0 errors=0
+2026-10-12 00:48:38,966 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-12 00:48:41,881 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-12 00:48:43,071 INFO pulse.collect: m1 classified 1 items
+2026-10-12 00:48:43,071 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-12 00:48:45,013 INFO pulse.collect: m2 classified 1 items
+2026-10-12 00:48:45,014 INFO pulse.collect: run 291 finished ok=True new=1 errors=0
+2026-10-12 00:58:38,922 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'no_rail_context': 1}
+2026-10-12 00:58:41,817 INFO pulse.collect: run 292 finished ok=True new=0 errors=0
+2026-10-12 01:08:38,804 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'bot': 1}
+2026-10-12 01:08:41,723 INFO pulse.collect: run 293 finished ok=True new=0 errors=0
+2026-10-12 01:18:38,950 INFO pulse.collect: fetched=1 kept=1 new=1 dropped={}
+2026-10-12 01:18:41,890 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-12 01:18:42,788 INFO pulse.collect: m1 classified 1 items
+2026-10-12 01:18:42,788 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-12 01:18:44,545 INFO pulse.collect: m2 classified 1 items
+2026-10-12 01:18:44,547 INFO pulse.collect: run 294 finished ok=True new=1 errors=0
+2026-10-12 01:28:38,990 INFO pulse.collect: fetched=2 kept=2 new=2 dropped={}
+2026-10-12 01:28:41,991 INFO pulse.sentiment: Loading oliverguhr/german-sentiment-bert
+2026-10-12 01:28:42,796 INFO pulse.collect: m1 classified 2 items
+2026-10-12 01:28:42,796 INFO pulse.sentiment: Loading cardiffnlp/twitter-xlm-roberta-base-sentiment
+2026-10-12 01:28:44,719 INFO pulse.collect: m2 classified 2 items
+2026-10-12 01:28:44,721 INFO pulse.collect: run 295 finished ok=True new=2 errors=0
+2026-10-12 01:38:40,776 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-12 01:38:43,738 INFO pulse.collect: run 296 finished ok=True new=0 errors=0
+2026-10-12 01:48:38,851 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-12 01:48:41,787 INFO pulse.collect: run 297 finished ok=True new=0 errors=0
+2026-10-12 01:58:29,572 WARNING pulse.collect: query 'S-Bahn Ausfall': InvokeTimeoutError: 
+2026-10-12 01:58:43,770 INFO pulse.collect: fetched=1 kept=0 new=0 dropped={'empty': 1}
+2026-10-12 01:58:46,718 INFO pulse.collect: run 298 finished ok=True new=0 errors=1
+2026-10-12 02:08:38,916 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-12 02:08:41,808 INFO pulse.collect: run 299 finished ok=True new=0 errors=0
+2026-10-12 02:18:38,903 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-12 02:18:41,835 INFO pulse.collect: run 300 finished ok=True new=0 errors=0
+2026-10-12 02:28:39,148 INFO pulse.collect: fetched=0 kept=0 new=0 dropped={}
+2026-10-12 02:28:42,124 INFO pulse.collect: run 301 finished ok=True new=0 errors=0
