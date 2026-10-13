@@ -1,0 +1,7 @@
+# Dashboard only. No torch/transformers: the dashboard reads labels that the
+# collector already computed, so it never runs a model.
+streamlit>=1.50
+pandas>=2.2
+plotly>=5.24
+pyyaml>=6.0
+tzdata
