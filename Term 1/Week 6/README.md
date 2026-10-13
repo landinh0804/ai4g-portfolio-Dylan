@@ -15,9 +15,11 @@ Week 6 was about language models: word embeddings, RNNs and LSTMs, and transform
   - **Error analysis:** three failures explained, with what a reader would have needed and which rung of the ladder (embedding, RNN, LSTM, transformer) would or would not handle it.
   - **Bias probe:** after "The train driver said that", "he" is about 11 times more likely than "she"; after "The cleaner said that" it is about 2.4 times.
   - **Judgement:** I would not let the model read passenger feedback on its own, only as a first sorting step in English with a person checking a sample.
+- [`homework/Week6_Lecture_Prep.md`](homework/Week6_Lecture_Prep.md) is the lecture preparation: notes on the two videos (NLP and the prompt formula), four probes of an LLM with the answers checked against real sources, one LLM product (Duolingo Max), and the article on Kenyan data labelling work with the question who pays.
 
 **What did I find difficult, and how did I solve it?**
 The model's confidence was the surprise: it was 94% to 99% sure that friendly German and Dutch sentences were negative, so confidence is not a warning light. I solved the analysis by sorting every failure into "what would a reader need": the order of the words, a memory of an earlier word, or the context around a word. A limit: only 14 sentences, and my labels are my own judgement, so the numbers are a rough picture. I did not do the bonus options, and the DataCamp courses are still to do on my own account.
+
 ### Checklist
 - [x] My workshop / homework files are in `homework/`
 - [x] Everything runs without errors, or I explained what does not and why
@@ -77,7 +79,7 @@ The main harm is to passengers who are misread. In our 50-post test the models a
 ## 4. Reflection
 
 **What is the most important thing I learned this week?**
-A language model can be confidently wrong, so its confidence score is not a warning light. Both in the workshop test and in the hackathon, the models were 90% to 100% sure on sarcasm, slang and non-English text they got wrong. The only way to know is to label a sample yourself and compare.
+A language model is trained to sound right, not to be right. In my workshop test the model was 93% to 100% sure about sarcasm, slang and Dutch and German sentences that it got wrong, and in the hackathon our two models agreed with our own labels only about half of the time. So its confidence score is not a warning light. From now on I label a small sample myself before I trust a model, and I check it on the kinds of text it was not trained on.
 
 **Where does this connect to "AI for Good"?**
-Bahn-Puls could help a railway company warn passengers earlier (SDG 9), but only if it is used as a rough trend indicator with a person checking. The people it can hurt are the passengers who are misread, especially those who write in other languages or in slang, and the people whose public posts are collected without being asked.
+Bahn-Puls could help a railway company warn passengers earlier (SDG 9), but every system has a hidden invoice, as the lecture said. For our case, the benefit goes to a railway communication team and the passengers who get a faster answer, and the cost is paid by passengers whose posts are misread (especially if they write in another language or in slang), by people whose public posts we collect without asking, and by the people and energy behind the models. That is why we call the dashboard a trend indicator that needs a person checking, not a measurement.
