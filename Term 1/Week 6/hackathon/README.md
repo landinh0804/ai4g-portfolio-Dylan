@@ -12,7 +12,7 @@ the CEO's 2026 target of 60% is out of reach
 ([DB](https://www.deutschebahn.com/de/konzern/konzernprofil/zahlen_fakten/puenktlichkeitswerte-6878476),
 [Wirtschaftsticker](https://wirtschaftsticker.com/2026/10/puenktlichkeit-der-fernzuege-verharrt-auf-niedrigem-niveau/)).
 DB attributes this to an unprecedented construction programme, including the full closure of
-Hannover–Berlin since October 2026 ([Dr. Web](https://www.drweb.de/bahn-puenktlichkeit-september-2026-fernverkehr/)),
+Hannover-Berlin since October 2026 ([Dr. Web](https://www.drweb.de/bahn-puenktlichkeit-september-2026-fernverkehr/)),
 and to infrastructure faults. Regional trains fare far better (88.2%). With trust this low,
 communication matters: passengers who are warned early about a closure or a replacement bus are
 frustrated less than those who find out on the platform.
@@ -23,16 +23,16 @@ every morning which issue gets proactive communication, today mostly by gut feel
 turns the public stream into one signal: **which topic's negative sentiment is rising above its
 own recent baseline, and which posts are behind it?**
 
-**Example from our data** (snapshot of 13 Oct, 586 personal posts): 157 posts were about delays
-and cancellations, and Model 2 rated 55% of them negative, against 38% across all personal posts.
-Construction posts (53) came out at only 28% negative, mostly neutral announcements of closures
+**Example from our data** (final snapshot of 14 Oct, 803 personal posts): 212 posts were about delays
+and cancellations, and Model 2 rated 55% of them negative, against 39% across all personal posts.
+Construction posts (67) came out at only 33% negative, mostly neutral announcements of closures
 and replacement buses. That is the kind of difference a morning team can act on: delays first,
 and construction notices are information people need rather than a source of anger.
 
 ## 2. The stream and Bluesky's terms of use
 - **Source:** Bluesky search (`app.bsky.feed.searchPosts`, `sort=latest`) with 29 German queries
   ([config.yaml](config.yaml)). Reddit was out of scope (API access needs approval).
-- **Viability:** a 3-day test run (9–12 Oct) found ~250 relevant posts per day after filtering,
+- **Viability:** a 3-day test run (9 to 12 Oct) found ~250 relevant posts per day after filtering,
   enough for the 300-item requirement within 48 h.
 - **Access:** search works anonymously via `api.bsky.app` (`public.api.bsky.app` returns 403).
   The collector logs in with an app password (repository secrets) when available.
@@ -124,7 +124,7 @@ python -m pulse.collect  (one cycle)
 dashboard.py  (Streamlit, read-only) ← pulse.db from the `bahn-puls-data` branch
 ```
 **Why it looks like this:**
-- *GitHub's cron is not the clock.* In the test run it fired only every 3–10 h, so each run
+- *GitHub's cron is not the clock.* In the test run it fired only every 3 to 10 h, so each run
   loops internally and starts the next one itself.
 - *Store first, classify second:* a model failure never loses posts.
 - *Data on its own branch, force-pushed as one commit:* no merge conflicts with code and no
@@ -148,7 +148,7 @@ streamlit run dashboard.py          # fetches the live DB automatically
 [flxr8/ai4g-portfolio-felix-reichle](https://github.com/flxr8/ai4g-portfolio-felix-reichle/actions)
 and keeps running during grading. Copies of this project in a team member's repo read that
 repo's live data (`live_db_url` in `config.yaml`); the workflow is skipped there, so there is only
-one dataset. `data/pulse.db` is the committed snapshot; the dashboard falls back to it if the live
+one dataset. `data/pulse.db` is the committed final snapshot (14 Oct: 885 posts, 303 runs, 50.6 hours of operation); the dashboard falls back to it if the live
 data can't be downloaded. The `runs` table in the database is the proof of continuous operation. The hosted dashboard
 uses [deploy/bahn-puls/streamlit_app.py](../../../deploy/bahn-puls/streamlit_app.py), because
 Streamlit Cloud can't install requirements from a path containing spaces.
