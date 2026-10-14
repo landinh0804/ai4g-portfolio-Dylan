@@ -167,7 +167,7 @@ or locally with `streamlit run dashboard.py`.
   exactly when it matters. Topics are recomputed from `config.yaml` on every run, so stored tags
   always match the current keyword lists.
 - **Toggles:** daily/hourly, personal/news/both (personal by default), Model 1/Model 2.
-- **Posts behind a point:** pick a day and topic for time, text, label, confidence and link.
+- **Posts behind a point:** pick a day and topic for time, text, label and confidence (there are no links, because no post URLs are stored).
 - **Baseline:** pooled negative share over the previous 7 days, excluding the current period
   (a spike must not hide in its own baseline). It needs ≥ 10 earlier posts, otherwise it's blank.
 - **Limitation:** no English translation. The open local model (opus-mt-de-en) needs the
