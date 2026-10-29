@@ -39,7 +39,7 @@ On macOS or Linux use `export` instead of `set`.
 On the 41-image test set: mAP@50 90.5%, precision 98.0%, recall 82.5%, F1 89.4%.
 The test labels also come from Auto Label, and photos of the same observation can be in
 both train and test, so these numbers are probably optimistic.
-A new hogweed photo that was not in the dataset was detected as giant_hogweed at 90% confidence.
+Three new photos that were not in the dataset (one hogweed, two knotweed) all got the right class, at 90%, 93% and 99% confidence.
 
 ## Ethical reflection
 See [ETHICS.md](ETHICS.md).

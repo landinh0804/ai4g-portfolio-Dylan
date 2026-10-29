@@ -10,7 +10,7 @@
 ## Limitations and failure modes
 - Test results on 41 images: mAP@50 90.5%, precision 98.0%, recall 82.5%. Those labels also came from Auto Label, so the model is partly graded against another AI. Treat the numbers as promising, not as field accuracy.
 - Recall is lower than precision: about 1 in 6 plants is missed.
-- Unseen photo check: one new hogweed photo that was not in the dataset was detected as giant_hogweed with 90% confidence. We did not manage to test a new knotweed photo.
+- Unseen photo check: three new photos that were not in the dataset (one hogweed, two knotweed) all got the right class, at 90%, 93% and 99% confidence. On one knotweed photo the box covered only the upper part of the plant. Three photos is a sanity check, not an evaluation. Every Dutch knotweed observation with a CC BY or CC BY-NC licence was already in the dataset, so the two knotweed test photos come from other licences and are not in this repository (see `data/unseen_sources.csv`).
 - Seasonal bias: we picked autumn and winter photos first, but we did not measure how well the model works per season, for example on dead knotweed canes.
 - Look-alikes: other tall plants with white umbels (for example giant cow parsley, angelica) or other knotweed hybrids could be confused with the two classes. We did not test them, so we do not know how often this happens.
 - Narrow conditions: only Dutch locations, only two classes, a small test set, and mostly photos taken by iNaturalist users who already knew what they were photographing. Boxes on wide shots cover whole stands, not single plants.
