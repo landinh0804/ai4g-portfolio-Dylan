@@ -69,6 +69,7 @@ The labels were made by Roboflow Auto Label and only 14 of the 415 images were c
 ## 4. Reflection
 
 **What is the most important thing I learned this week?**
+A high score does not mean the model works in real life. Our model reached 90.5% mAP@50 on the test set, but the test boxes were made by the same kind of AI that labelled the training photos, I only checked 14 of 415 images myself, and photos of the same plant can sit in both train and test. So the number is a promising sign, not proof. I also learned to look at images at full size: two thumbnails looked like bad labels, but when I opened them the boxes were correct, and the one real mistake (a stray box) only showed up in the full view. From now on I check a sample of labels myself and test on photos the model has really never seen.
 
 **Where does this connect to "AI for Good"?**
-_One concrete link to ethics, sustainability or social impact._
+Japanese knotweed and giant hogweed are invasive species (SDG 15, target 15.8), and a tool that helps a municipality or volunteers spot them early could save money and protect people, since hogweed sap burns skin. The same tool can also do harm: a wrong detection could get a native plant sprayed or a landowner blamed, and a missed plant lets an invasive one spread. That is why we describe it as a screening aid where a person confirms every finding, and why we wrote down that we never tested look-alike plants such as giant cow parsley.
