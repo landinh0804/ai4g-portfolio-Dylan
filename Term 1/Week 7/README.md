@@ -20,40 +20,37 @@ _List the files, or link to them. Notebook exports, screenshots, scripts._
 
 ## 2. Hackathon prototype -> [`hackathon/`](hackathon/)
 
-> Your tool and your SDG for this hackathon are announced at the **start of Friday's class**.
-> Write them down here once you know them.
+**Project title:** Invasive Plant Spotter (Eyes on Earth)
 
-**Project title:**
+**My pair partner:** Ana
 
-**My pair partner:**
+**Tool we had to use:** Roboflow, to train a computer vision model on a Netherlands subject and run it on new unseen images.
 
-**Tool we had to use:**
-
-**SDG we had to address:**
+**SDG we had to address:** SDG 15, Life on Land (target 15.8: prevent and reduce the impact of invasive alien species).
 
 **What problem does it solve, and for whom?**
-_Name a real, specific user. "Everyone" is not a user._
+Municipal green-space teams, water boards and volunteer groups need to find Japanese knotweed and giant hogweed early, before they damage paving and dikes or burn someone's skin. The model gives them a first screening of a photo, and a person confirms every finding.
 
 **What did you build?**
-_Two or three sentences. What can a user actually do with it?_
+A Roboflow RF-DETR Small object detection model for two classes (japanese_knotweed, giant_hogweed), trained on 415 openly licensed iNaturalist photos from the Netherlands, and a small Streamlit app. A user uploads a photo and the app draws boxes with the class and a confidence score. On the 41-image test set the model scored mAP@50 90.5%, precision 98.0% and recall 82.5%. A new hogweed photo that was not in the dataset was detected at 90% confidence.
 
 **Link to the live thing (if any):**
-_Deployed URL, workflow export, video demo - whatever proves it works._
+No public deployment. It runs locally from [`hackathon/`](hackathon/), with a Roboflow API key kept outside the repository.
 
 **How do I run it?**
-_Short instructions so someone else can start it._
+Short version: install `requirements.txt`, set `ROBOFLOW_API_KEY` and `ROBOFLOW_MODEL_ID`, then run `python -m streamlit run app.py`. Full steps are in [`hackathon/README.md`](hackathon/README.md).
 
 **Who did what?**
-_Be honest about the split of work between you and your partner._
+We had no photos of our own, so all images were scraped from iNaturalist with per-photo author and licence kept in `hackathon/data/sources.csv`. An AI coding assistant (Claude) did most of the hands-on work under Dylan's direction: the scraping script, the Roboflow project setup and Auto Label run, the app code and the first drafts of the README and ethical reflection. Dylan chose the topic, approved each step, set up the accounts and ran the app. [Dylan: add what Ana did.]
 
 **Ethical reflection - what are the risks of your tool? Who could it harm?**
-_Every hackathon requires this. One honest paragraph beats three vague ones._
+The labels were made by Roboflow Auto Label and only 14 of the 415 images were checked by a person, so the test scores are probably optimistic, and photos of the same observation can sit in both train and test. The model misses about 1 in 6 plants, so a false negative could let an invasive plant spread unnoticed, while a false positive could lead to a native plant being sprayed or a landowner being wrongly blamed. We never tested look-alike plants such as giant cow parsley or angelica, or knotweed on a new photo. Giant hogweed sap burns skin, so the app must never encourage anyone to approach or touch a plant. It is a screening aid and a person has to confirm every detection. The full reflection is in [`hackathon/ETHICS.md`](hackathon/ETHICS.md).
 
 ### Checklist
-- [ ] Prototype code (or export / workflow file) is in `hackathon/`
+- [x] Prototype code (or export / workflow file) is in `hackathon/`
 - [ ] This week's slides are in `hackathon/`
-- [ ] The prototype actually runs, and I wrote down how to run it
-- [ ] Ethical reflection written above
+- [x] The prototype actually runs, and I wrote down how to run it
+- [x] Ethical reflection written above
 
 ---
 
