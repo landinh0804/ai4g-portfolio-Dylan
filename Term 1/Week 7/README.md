@@ -41,14 +41,14 @@ No public deployment. It runs locally from [`hackathon/`](hackathon/), with a Ro
 Short version: install `requirements.txt`, set `ROBOFLOW_API_KEY` and `ROBOFLOW_MODEL_ID`, then run `python -m streamlit run app.py`. Full steps are in [`hackathon/README.md`](hackathon/README.md).
 
 **Who did what?**
-We had no photos of our own, so all images were scraped from iNaturalist with per-photo author and licence kept in `hackathon/data/sources.csv`. An AI coding assistant (Claude) did most of the hands-on work under Dylan's direction: the scraping script, the Roboflow project setup and Auto Label run, the app code and the first drafts of the README and ethical reflection. Dylan chose the topic, approved each step, set up the accounts and ran the app. Ana is responsible for the slides.
+We had no photos of our own, so all images were scraped from iNaturalist with per-photo author and licence kept in `hackathon/data/sources.csv`. An AI coding assistant (Claude) did most of the hands-on work under Dylan's direction: the scraping script, the Roboflow project setup and Auto Label run, the app code and the first drafts of the README and ethical reflection. Dylan chose the topic, approved each step, set up the accounts and ran the app. Ana made the first draft of the slides and wrote the problem slide. The deck was then corrected with an AI assistant (Claude) so that it matches the real data, classes and results (`hackathon/hackathon7_slides.pptx`).
 
 **Ethical reflection - what are the risks of your tool? Who could it harm?**
 The labels were made by Roboflow Auto Label and only 14 of the 415 images were checked by a person, so the test scores are probably optimistic, and photos of the same observation can sit in both train and test. The model misses about 1 in 6 plants, so a false negative could let an invasive plant spread unnoticed, while a false positive could lead to a native plant being sprayed or a landowner being wrongly blamed. We never tested look-alike plants such as giant cow parsley or angelica, and only three new photos were tried. Giant hogweed sap burns skin, so the app must never encourage anyone to approach or touch a plant. It is a screening aid and a person has to confirm every detection. The full reflection is in [`hackathon/ETHICS.md`](hackathon/ETHICS.md).
 
 ### Checklist
 - [x] Prototype code (or export / workflow file) is in `hackathon/`
-- [ ] This week's slides are in `hackathon/`
+- [x] This week's slides are in `hackathon/`
 - [x] The prototype actually runs, and I wrote down how to run it
 - [x] Ethical reflection written above
 
