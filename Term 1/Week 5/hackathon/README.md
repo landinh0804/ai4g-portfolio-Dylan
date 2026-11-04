@@ -1,6 +1,6 @@
 > **Resit version (final):** the current project is in the [Resit folder](Resit/README.md): who will miss their next credit card payment (credit card default data). The text below is the first attempt.
->
-> # Hackathon 5: Model Showdown. Who misses the extra grant?
+
+# Hackathon 5: Model Showdown. Who misses the extra grant?
 
 **SDG 8: Decent Work and Economic Growth** | AI for Good | Dylan Dinh Duy and Nina Borutyńska
 
