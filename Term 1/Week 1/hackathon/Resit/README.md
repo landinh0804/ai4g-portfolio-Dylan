@@ -2,6 +2,8 @@
 
 Live app: https://hague-open-hours.lovable.app/
 
+Source code: https://github.com/landinh0804/hague-open-hours (public, Lovable saves every change there)
+
 Tool: Lovable (the brief allows Bolt or Lovable). SDG: 4, Quality Education. Made by Dylan.
 
 ## The problem
@@ -51,3 +53,5 @@ All the code was written by Lovable from my prompts. What I did: chose the probl
 
 ## How to run
 Open the live link in a browser. No account is needed.
+
+To run it on your own computer: clone the source code repository above, run `npm i` and then `npm run dev`. The repository also has tests that Lovable wrote (in `src/test`, for the opening hours, the places and the saved-data fallback). I have not run them myself.
